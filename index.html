@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automation demos</title>
+<meta name="description" content="Small, tested Python automation tools for online sellers and small businesses: Excel reports, dashboards, web scraping, PDF extraction and data cleaning.">
+<style>
+  :root { --bg: #0b1220; --panel: #14223b; --line: #23365a; --ink: #f1f5f9; --ink-2: #a5b4cb; --accent: #22c55e; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 48px 24px 56px; }
+  .eyebrow { color: var(--accent); font-weight: 600; letter-spacing: .04em; }
+  h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.1; margin: 8px 0 14px; }
+  .lead { color: var(--ink-2); font-size: 18px; max-width: 760px; margin: 0; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 26px 0 40px; }
+  .btn { display: inline-block; padding: 12px 18px; border-radius: 12px; text-decoration: none; font-weight: 600; }
+  .btn.primary { background: var(--accent); color: #0b1220; }
+  .btn.ghost { border: 1px solid var(--line); color: var(--ink); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+  .card { background: var(--panel); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
+  .card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+  .body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card h2 { font-size: 19px; margin: 0; }
+  .card p { color: var(--ink-2); margin: 0; flex: 1; }
+  .links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 6px; }
+  .links a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  footer { color: var(--ink-2); font-size: 14px; margin-top: 40px; border-top: 1px solid var(--line); padding-top: 18px; }
+  footer a { color: var(--ink); }
+  @media (max-width: 480px) { .wrap { padding: 32px 16px 40px; } .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Ash H. &middot; Perth, Australia</div>
+  <h1>Automation that saves you hours</h1>
+  <p class="lead">Small, tested Python tools for online sellers and small businesses: Excel and Google Sheets reports, dashboards, web scraping, PDF extraction and data cleaning. Each demo comes with its finished output, so you can see the result without running anything.</p>
+  <div class="actions">
+    <a class="btn primary" href="sales-dashboard/output/dashboard.html">Open the live dashboard</a>
+    <a class="btn ghost" href="https://www.upwork.com/freelancers/~01ef814021f46373e5">Hire me on Upwork</a>
+    <a class="btn ghost" href="https://www.freelancer.com/u/ashhollis">Hire me on Freelancer</a>
+  </div>
+
+  <section class="grid">
+    <article class="card">
+      <img src="images/cover-sales-report.png" alt="Sales report builder: messy store export to clean Excel report" loading="lazy">
+      <div class="body"><h2>Sales report builder</h2>
+        <p>Cleans a messy store order export and builds a formatted Excel sales report, with a log of every fix.</p>
+        <div class="links"><a href="https://github.com/hollisenterprises-boop/automation-portfolio/tree/main/sales-report">See the code</a></div></div>
+    </article>
+    <article class="card">
+      <img src="images/cover-sales-dashboard.png" alt="Store sales dashboard built from order data" loading="lazy">
+      <div class="body"><h2>Store sales dashboard</h2>
+        <p>Turns the cleaned orders into an interactive one-file web dashboard: KPI cards, charts, a state filter and the latest orders.</p>
+        <div class="links"><a href="sales-dashboard/output/dashboard.html">Try it live</a><a href="https://github.com/hollisenterprises-boop/automation-portfolio/tree/main/sales-dashboard">See the code</a></div></div>
+    </article>
+    <article class="card">
+      <img src="images/cover-ads-waste-finder.png" alt="Amazon ads waste finder" loading="lazy">
+      <div class="body"><h2>Amazon ads waste finder</h2>
+        <p>Finds the searches wasting ad money, the bids to lower and the winners to promote, from an Amazon search term report.</p>
+        <div class="links"><a href="https://github.com/hollisenterprises-boop/automation-portfolio/tree/main/ads-waste-finder">See the code</a></div></div>
+    </article>
+    <article class="card">
+      <img src="images/cover-price-tracker.png" alt="Competitor price tracker" loading="lazy">
+      <div class="body"><h2>Competitor price tracker</h2>
+        <p>Scrapes a product catalogue on a schedule and reports price, stock and range changes in Excel.</p>
+        <div class="links"><a href="https://github.com/hollisenterprises-boop/automation-portfolio/tree/main/price-tracker">See the code</a></div></div>
+    </article>
+    <article class="card">
+      <img src="images/cover-invoice-extractor.png" alt="PDF invoices to one checked spreadsheet" loading="lazy">
+      <div class="body"><h2>PDF invoices to Excel</h2>
+        <p>Reads supplier invoice PDFs in different layouts, checks the maths and GST, flags duplicates and writes one workbook.</p>
+        <div class="links"><a href="https://github.com/hollisenterprises-boop/automation-portfolio/tree/main/invoice-extractor">See the code</a></div></div>
+    </article>
+    <article class="card">
+      <img src="images/cover-list-cleaner.png" alt="Contact list cleaner" loading="lazy">
+      <div class="body"><h2>Contact list cleaner</h2>
+        <p>Merges messy customer lists, fixes names, emails and phone numbers, removes duplicates and keeps marketing consent strict.</p>
+        <div class="links"><a href="https://github.com/hollisenterprises-boop/automation-portfolio/tree/main/list-cleaner">See the code</a></div></div>
+    </article>
+  </section>
+
+  <footer>Every demo has automated tests. Sample data is made up unless a demo says otherwise. For your own project, message me on <a href="https://www.upwork.com/freelancers/~01ef814021f46373e5">Upwork</a> or <a href="https://www.freelancer.com/u/ashhollis">Freelancer</a>.</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,819 @@
+ Order ID,Order Date ,SKU,Product Name,Qty,Item Price,Order Status,Ship State
+SS-100101,2026-04-01,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,NSW
+SS-100101,2026-04-01,LID-BAMBOO-4,Bamboo Lids (4 pack),2,12.95,Shipped,New South Wales
+SS-100102,01/04/2026,oil-spray,Glass Oil Sprayer,1,17.95,Delivered,QLD
+SS-100103,2026-04-02, SPICE-12 ,Spice Jar Set (12),1,29.95,shipped,NSW
+SS-100104,2026-04-02,SPICE-12,Spice Jar Set (12),2,AUD 29.95,refunded,QLD
+SS-100105,2026-04-04,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,NSW
+
+SS-100106,2026-04-04 21:33:16,oil-spray,Glass  Oil Sprayer,1,$17.95,Delivered,VIC
+SS-100107,2026-04-04,LID-BAMBOO-4,Bamboo Lids (4 pack),3,TBC,Shipped,VIC
+SS-100108,4 Apr 2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,delivered,South Australia
+SS-100109,2026-04-05,OIL-SPRAY,Glass Oil Sprayer,3 units,17.95,Delivered,TAS
+SS-100110,2026-04-05,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,delivered,QLD
+SS-100111,2026-04-06,GLS-JAR-1000,Glass Storage Jar 1L,x1,19.95,Delivered,WA
+SS-100112,2026-04-06 21:15:55,OIL-SPRAY,Glass Oil Sprayer,1,17.95,SHIPPED,New South Wales
+SS-100113,2026-04-07 12:24:00,OIL-SPRAY,Glass Oil Sprayer,2,17.95,SHIPPED,vic
+SS-100114,2026-04-07,GLS-JAR-500,Glass Storage Jar 500ml,1 unit,14.95,delivered,NSW
+SS-100115,2026-04-07,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Delivered,Queensland
+SS-100116,07/04/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,NSW
+SS-100117,08/04/2026, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1 unit,12.95,SHIPPED,New South Wales
+
+SS-100118,2026-04-09,LUNCH-2C,Two-Compartment  Lunch Box,2,$24.95,Shipped,Queensland
+SS-100118,2026-04-09 07:07:04,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,QLD
+SS-100119,09/04/2026,gls-jar-500,Glass Storage Jar 500ml,1,AUD 14.95,Shipped,TAS
+SS-100119,09/04/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,shipped,TAS
+SS-100119,2026-04-09,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,TAS
+SS-100120,10 Apr 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),x1,12.95,Shipped,SA
+SS-100120,10/04/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,Shipped,South Australia
+SS-100120,2026-04-10 18:27:04,spice-12,Spice Jar Set (12),1,29.95,SHIPPED,SA
+SS-100121,2026-04-10 19:43:47,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,QLD
+SS-100122,2026-04-10,MP-SET-10,Glass Meal Prep Set (10 pack),1, 69.95 ,Delivered,VIC
+SS-100123,2026-04-11,LUNCH-2C,Two-Compartment Lunch Box,2,AUD 24.95,refunded,Queensland
+SS-100123,2026-04-11,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,refunded,QLD
+SS-100124,11/04/2026,OIL-SPRAY,Glass Oil Sprayer,2,$17.95,delivered,QLD
+SS-100124,2026-04-11,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,QLD
+SS-100125,11 Apr 2026, GLS-JAR-500 ,Glass  Storage Jar 500ml,1 unit,$14.95,Shipped,vic
+SS-100126,2026-04-12,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,SHIPPED,S.A.
+SS-100126,2026-04-12,lunch-2c,Two-Compartment Lunch Box,2,24.95,Shipped,SA
+SS-100127,12/04/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,AUD 19.95,Shipped,ACT
+SS-100128,2026-04-12,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,SHIPPED,QLD
+SS-100129,13 Apr 2026,gls-jar-1000,Glass Storage Jar 1L,1, 19.95 ,CANCELED,VIC
+SS-100129,2026-04-13,LID-BAMBOO-4,Bamboo Lids (4 pack),1,AUD 12.95,Cancelled,VIC
+SS-100130,2026-04-13, LUNCH-2C ,Two-Compartment Lunch Box,1,$24.95,Delivered,Queensland
+SS-100131,14/04/2026,spice-12,Spice Jar Set (12),1,29.95,Delivered,VIC
+SS-100132,14/04/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,Victoria
+SS-100132,2026-04-14,OIL-SPRAY,Glass Oil Sprayer,1, 17.95 ,Shipped,VIC
+SS-100133,2026-04-14,LID-BAMBOO-4,Bamboo Lids (4 pack),2, 12.95 ,Shipped,Queensland
+SS-100133,2026-04-14,GLS-JAR-500,Glass Storage Jar 500ml,2, 14.95 ,Shipped,Queensland
+SS-100134,2026-04-14,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,VIC
+SS-100135,2026-04-15,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Shipped,Queensland
+SS-100136,15 Apr 2026,LUNCH-2C,Two-Compartment Lunch Box,1 unit,24.95,Shipped,New South Wales
+SS-100137,2026-04-15,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Delivered,NSW
+SS-100138,15 Apr 2026,MP-SET-10,Glass Meal Prep Set (10 pack),3,69.95,Delivered,QLD
+SS-100139,2026-04-15,LUNCH-2C,Two-Compartment Lunch Box,1 unit,$24.95,Shipped,WA
+SS-100139,15 Apr 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,Western Australia
+SS-100139,15/04/2026,mp-set-10,Glass Meal Prep Set (10 pack),1,69.95,SHIPPED,Western Australia
+SS-100140,17/04/2026,GLS-JAR-1000,Glass Storage Jar 1L,1, 19.95 ,Delivered,NSW
+SS-100140,2026-04-17,MP-SET-10,Glass Meal Prep Set (10 pack),2 units,69.95,delivered,NSW
+SS-100140,2026-04-17,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,delivered,New South Wales
+SS-100141,17 Apr 2026,OIL-SPRAY,Glass Oil Sprayer,1, 17.95 ,Shipped,VIC
+SS-100141,2026-04-17,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,VIC
+SS-100142,17/04/2026,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Cancelled,vic
+SS-100143,2026-04-18,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,VIC
+SS-100144,18/04/2026,MP-SET-10,Glass Meal Prep Set (10 pack),2 units,69.95,Shipped,NSW
+SS-100144,18/04/2026,LUNCH-2C,Two-Compartment Lunch Box,x2,AUD 24.95,Shipped,NSW
+SS-100145,18/04/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,shipped,QLD
+SS-100146,2026-04-18,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,WA
+SS-100146,2026-04-18 18:33:32,SPICE-12,Spice Jar Set (12),1,29.95,shipped,Western Australia
+SS-100147,2026-04-19,OIL-SPRAY,Glass Oil Sprayer,2,$17.95,Shipped,ACT
+SS-100147,19/04/2026, LUNCH-2C ,Two-Compartment Lunch Box,1,$24.95,Shipped,ACT
+SS-100148,2026-04-19,GLS-JAR-500,Glass Storage Jar 500ml,1,AUD 14.95,Delivered,NSW
+SS-100149,2026-04-19,LUNCH-2C,Two-Compartment Lunch Box,1 unit,24.95,Delivered,SA
+SS-100150,2026-04-19,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,SHIPPED,Victoria
+SS-100151,19/04/2026,MP-SET-10,Glass Meal Prep Set (10 pack),x1,69.95,delivered,QLD
+SS-100152,2026-04-20,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,VIC
+SS-100152,2026-04-20 16:29:41,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,vic
+SS-100153,20/04/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,SHIPPED,Queensland
+SS-100154,20/04/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1, 69.95 ,Delivered,NSW
+SS-100155,20/04/2026,SPICE-12,Spice Jar Set (12),1 unit,AUD 29.95,Shipped,vic
+SS-100155,20/04/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,shipped,VIC
+SS-100156,2026-04-22,GLS-JAR-500,Glass Storage Jar 500ml,2,14.95,Delivered,Australian Capital Territory
+SS-100156,22/04/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Delivered,act
+SS-100157,2026-04-23,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,NSW
+SS-100158,23 Apr 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,NSW
+SS-100158,23 Apr 2026,LUNCH-2C,Two-Compartment  Lunch Box,1 unit,AUD 24.95,Shipped,NSW
+SS-100158,2026-04-23 10:25:01,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,NSW
+SS-100159,2026-04-23,LID-BAMBOO-4,Bamboo Lids (4 pack),1,AUD 12.95,Shipped,Victoria
+SS-100160,24/04/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,delivered,NSW
+SS-100161,24/04/2026,SPICE-12,Spice Jar Set (12),1,29.95,Delivered,QLD
+SS-100162,25 Apr 2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Refunded,NSW
+SS-100163,25/04/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,QLD
+SS-100164,26/04/2026,OIL-SPRAY,Glass Oil Sprayer,x1,$17.95,Delivered,NSW
+SS-100165,2026-04-26,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,SHIPPED,VIC
+SS-100165,26 Apr 2026,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,Victoria
+SS-100166,26/04/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Delivered,NSW
+SS-100167,2026-04-26,SPICE-12,Spice Jar Set (12),x2,$29.95,delivered,VIC
+SS-100167,2026-04-26,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Delivered,vic
+SS-100168,2026-04-28, GLS-JAR-500 ,Glass Storage Jar 500ml,1,AUD 14.95,shipped,Victoria
+SS-100169,2026-04-28 21:39:00,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,Shipped,NSW
+SS-100169,2026-04-28,OIL-SPRAY,Glass Oil Sprayer,1,AUD 17.95,Shipped,NSW
+SS-100170,28/04/2026,SPICE-12,Spice Jar Set (12),x1,29.95,shipped,NSW
+SS-100171,2026-04-28,SPICE-12,Spice Jar Set (12),1,$29.95,delivered,NSW
+SS-100172,2026-04-29 09:45:49,LUNCH-2C,Two-Compartment Lunch Box,2,AUD 24.95,Delivered,QLD
+SS-100172,29 Apr 2026,SPICE-12,Spice Jar Set (12),2,AUD 29.95,Delivered,QLD
+SS-100172,2026-04-29,GLS-JAR-1000,Glass Storage Jar 1L,2,$19.95,Delivered,QLD
+SS-100173,2026-04-29,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,Northern Territory
+SS-100174,30 Apr 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,delivered,VIC
+SS-100175,2026-04-30,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,vic
+SS-100176,2026-04-30,gls-jar-1000,Glass Storage Jar 1L,1,AUD 19.95,Shipped,vic
+SS-100176,30/04/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,Victoria
+SS-100177,2026-04-30 18:29:51,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,NSW
+SS-100177,30/04/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,AUD 19.95,shipped,New South Wales
+SS-100177,30 Apr 2026,MP-SET-10,Glass Meal Prep Set (10 pack),3,69.95,SHIPPED,NSW
+SS-100178,2026-05-01, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1,$12.95,Shipped,New South Wales
+SS-100178,2026-05-01 07:05:02,GLS-JAR-1000,Glass Storage Jar 1L,2,$19.95,Shipped,NSW
+SS-100178,1 May 2026,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,NSW
+SS-100179,2026-05-02,SPICE-12,Spice Jar Set (12),1,29.95,Delivered,vic
+SS-100179,2026-05-02 12:52:20,MP-SET-10,Glass Meal Prep Set (10 pack),1, 69.95 ,Delivered,Victoria
+SS-100180,2026-05-02,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,VIC
+SS-100181,03/05/2026,MP-SET-10,Glass Meal Prep Set (10 pack),x1,$69.95,Shipped,nsw
+SS-100182,2026-05-03,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Delivered,VIC
+SS-100182,03/05/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,VIC
+SS-100182,03/05/2026,LID-BAMBOO-4,Bamboo  Lids (4 pack),1, 12.95 ,delivered,Victoria
+SS-100183,2026-05-04 14:02:36,OIL-SPRAY,Glass  Oil Sprayer,1,17.95,Delivered,QLD
+SS-100184,2026-05-04 13:35:20,GLS-JAR-500,Glass Storage Jar 500ml,x1,14.95,Delivered,SA
+SS-100184,2026-05-04,SPICE-12,Spice Jar Set (12),2, 29.95 ,Delivered,SA
+SS-100185,4 May 2026, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1,12.95,delivered,VIC
+SS-100186,04/05/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),2,12.95,Shipped,VIC
+SS-100187,2026-05-05, MP-SET-5 ,Glass Meal Prep Set (5 pack),1,AUD 39.95,Delivered,NSW
+SS-100188,2026-05-05,MP-SET-5,Glass Meal Prep Set (5 pack),2,$39.95,delivered,TAS
+SS-100188,2026-05-05, MP-SET-10 ,Glass Meal Prep Set (10 pack),1,AUD 69.95,delivered,TAS
+SS-100189,6 May 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,AUD 12.95,SHIPPED,New South Wales
+SS-100190,2026-05-06,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,QLD
+SS-100191,2026-05-07, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1, 12.95 ,Shipped,New South Wales
+SS-100192,07/05/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,delivered,WA
+SS-100192,2026-05-07,SPICE-12,Spice Jar Set (12),1,$29.95,Delivered,WA
+SS-100193,07/05/2026,GLS-JAR-500,Glass Storage Jar 500ml,1, 14.95 ,SHIPPED,VIC
+SS-100193,2026-05-07,MP-SET-10,Glass Meal Prep Set (10 pack),x1,69.95,SHIPPED,VIC
+SS-100194,08/05/2026,MP-SET-5,Glass  Meal Prep Set (5 pack),1,39.95,Shipped,NSW
+SS-100194,2026-05-08,SPICE-12,Spice Jar Set (12),2,29.95,Shipped,NSW
+SS-100194,2026-05-08,LUNCH-2C,Two-Compartment Lunch Box,2,24.95,shipped,NSW
+SS-100195,8 May 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1 unit, 12.95 ,Shipped,SA
+SS-100196,2026-05-08 22:03:22,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,QLD
+SS-100196,08/05/2026,SPICE-12,Spice Jar Set (12),1, 29.95 ,Delivered,QLD
+SS-100197,2026-05-08,SPICE-12,Spice  Jar Set (12),1,$29.95,Shipped,Queensland
+SS-100197,2026-05-08, GLS-JAR-500 ,Glass Storage Jar 500ml,1, 14.95 ,Shipped,QLD
+SS-100197,8 May 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,QLD
+SS-100198,2026-05-09,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,SA
+SS-100199,09/05/2026,SPICE-12,Spice Jar Set (12),3,29.95,SHIPPED,qld
+SS-100199,2026-05-09,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,QLD
+SS-100199,2026-05-09,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Shipped,QLD
+SS-100200,09/05/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,VIC
+SS-100200,09/05/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,Victoria
+SS-100200,2026-05-09 17:36:54,oil-spray,Glass Oil Sprayer,2,AUD 17.95,Delivered,VIC
+SS-100201,09/05/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,QLD
+SS-100202,2026-05-10 09:32:47,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,S.A.
+SS-100203,2026-05-10,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,delivered,New South Wales
+SS-100204,11 May 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Delivered,QLD
+SS-100205,11/05/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,QLD
+SS-100205,2026-05-11,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,QLD
+SS-100206,2026-05-11,OIL-SPRAY,Glass Oil Sprayer,1 unit, 17.95 ,Shipped,NSW
+SS-100207,2026-05-11,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,VIC
+SS-100207,2026-05-11 07:46:29,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,Victoria
+SS-100207,11/05/2026,LUNCH-2C,Two-Compartment Lunch Box,1, 24.95 ,Shipped,VIC
+SS-100208,2026-05-12,SPICE-12,Spice Jar Set (12),1,$29.95,Delivered,Queensland
+SS-100209,2026-05-12,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,WA
+SS-100210,2026-05-12,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Cancelled,New South Wales
+SS-100210,2026-05-12, LUNCH-2C ,Two-Compartment Lunch Box,1,24.95,Cancelled,nsw
+SS-100210,12/05/2026,OIL-SPRAY,Glass Oil Sprayer,1 unit,17.95,Cancelled,NSW
+SS-100211,2026-05-12,GLS-JAR-1000,Glass Storage Jar 1L,2, 19.95 ,Shipped,QLD
+SS-100211,12/05/2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Shipped,QLD
+SS-100212,13/05/2026,MP-SET-5,Glass Meal Prep Set (5 pack),x1,$39.95,Delivered,VIC
+SS-100213,2026-05-13 13:52:24,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,shipped,NSW
+SS-100214,2026-05-14,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,Western Australia
+SS-100215,14 May 2026,LUNCH-2C,Two-Compartment Lunch Box,x1,24.95,Shipped,Western Australia
+SS-100216,2026-05-14,SPICE-12,Spice Jar Set (12),2,29.95,Refunded,WA
+SS-100217,2026-05-15,gls-jar-1000,Glass Storage Jar 1L,2,$19.95,shipped,South Australia
+SS-100217,2026-05-15,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,shipped,South Australia
+SS-100217,2026-05-15,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,SA
+SS-100218,2026-05-15,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Delivered,NSW
+SS-100219,2026-05-16 07:27:12,mp-set-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,delivered,VIC
+SS-100220,16 May 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,QLD
+SS-100221,17 May 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,New South Wales
+SS-100221,2026-05-17,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Shipped,NSW
+SS-100222,2026-05-17,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Delivered,NSW
+SS-100223,2026-05-18,LID-BAMBOO-4,Bamboo Lids (4 pack),x1,12.95,Delivered,WA
+SS-100224,18/05/2026,SPICE-12,Spice Jar Set (12),2,29.95,Delivered,ACT
+SS-100224,18/05/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,ACT
+SS-100224,18/05/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Delivered,Australian Capital Territory
+SS-100225,18/05/2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Delivered,nsw
+SS-100226,2026-05-19,LID-BAMBOO-4,Bamboo Lids (4 pack),x2,$12.95,Shipped,NSW
+SS-100226,2026-05-19,SPICE-12,Spice Jar Set (12),2,29.95,Shipped,NSW
+SS-100227,2026-05-19 08:35:51,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,VIC
+SS-100228,19 May 2026,mp-set-5,Glass Meal Prep Set (5 pack),2,39.95,Shipped,VIC
+SS-100228,19/05/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,AUD 19.95,shipped,VIC
+SS-100228,19/05/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,shipped,VIC
+SS-100229,2026-05-20,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,delivered,VIC
+SS-100230,2026-05-21,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Delivered,VIC
+SS-100231,2026-05-22,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,WA
+SS-100232,22/05/2026, GLS-JAR-500 ,Glass Storage Jar 500ml,1,14.95,delivered,WA
+SS-100233,2026-05-23 08:53:49,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Delivered,NSW
+SS-100234,23 May 2026,LUNCH-2C,Two-Compartment  Lunch Box,2,24.95,Delivered,New South Wales
+SS-100235,23 May 2026,MP-SET-10,Glass Meal Prep Set (10 pack),2,69.95,Shipped,QLD
+SS-100236,23/05/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Shipped,NSW
+SS-100237,24 May 2026, LID-BAMBOO-4 ,Bamboo Lids (4 pack),2,$12.95,Delivered,New South Wales
+SS-100237,2026-05-24 14:36:54,GLS-JAR-500,Glass Storage Jar 500ml,x1,14.95,Delivered,NSW
+SS-100238,25 May 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,VIC
+SS-100239,25 May 2026,MP-SET-5,Glass  Meal Prep Set (5 pack),1,AUD 39.95,shipped,South Australia
+SS-100240,26/05/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,CANCELED,VIC
+SS-100240,26/05/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,CANCELED,vic
+SS-100240,2026-05-26,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Cancelled,VIC
+SS-100241,2026-05-26,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Shipped,VIC
+SS-100242,2026-05-26,oil-spray,Glass Oil Sprayer,1,17.95,Cancelled,South Australia
+SS-100243,26/05/2026,mp-set-5,Glass Meal Prep Set (5 pack),2,$39.95,Shipped,ACT
+SS-100244,2026-05-27,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,NSW
+SS-100245,2026-05-27 12:40:18,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,delivered,QLD
+SS-100246,2026-05-27,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,Victoria
+SS-100247,27 May 2026,GLS-JAR-500,Glass Storage Jar 500ml,2,14.95,SHIPPED,Western Australia
+SS-100248,2026-05-28 21:11:10,MP-SET-5,Glass Meal Prep Set (5 pack),1, 39.95 ,Delivered,W.A.
+SS-100249,28 May 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Delivered,New South Wales
+SS-100249,28/05/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,NSW
+SS-100250,28 May 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,delivered,NSW
+SS-100251,2026-05-28 14:08:19,GLS-JAR-1000,Glass Storage Jar 1L,3,19.95,Shipped,NSW
+SS-100252,28/05/2026,SPICE-12,Spice Jar Set (12),1,$29.95,Delivered,Queensland
+SS-100252,2026-05-28 08:29:03,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,QLD
+SS-100253,29/05/2026,SPICE-12,Spice Jar Set (12),1,$29.95,SHIPPED,sa
+SS-100254,2026-05-29,GLS-JAR-500,Glass Storage Jar 500ml,2,$14.95,delivered,New South Wales
+SS-100255,30 May 2026,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,shipped,SA
+SS-100255,2026-05-30,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,S.A.
+SS-100256,30/05/2026,GLS-JAR-500,Glass Storage Jar 500ml,x2,14.95,Shipped,VIC
+SS-100257,2026-05-30,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Delivered,QLD
+SS-100258,30 May 2026,SPICE-12,Spice Jar Set (12),1,TBC,Delivered,QLD
+SS-100258,2026-05-30,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,delivered,QLD
+SS-100259,2026-05-31 22:21:40,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,delivered,NT
+SS-100260,2026-06-01,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,Western Australia
+SS-100261,01/06/2026,SPICE-12,Spice Jar Set (12),1,29.95,delivered,QLD
+SS-100262,2026-06-01 13:10:58,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,delivered,NT
+SS-100263,01/06/2026,LID-BAMBOO-4,Bamboo  Lids (4 pack),1,12.95,Shipped,QLD
+SS-100264,2026-06-01,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,shipped,QLD
+SS-100265,2026-06-01,LID-BAMBOO-4,Bamboo Lids (4 pack),2 units,$12.95,Shipped,NSW
+SS-100265,1 Jun 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),2,12.95,shipped,NSW
+SS-100266,2026-06-02,GLS-JAR-1000,Glass Storage Jar 1L,2,AUD 19.95,refunded,NSW
+SS-100267,2026-06-02, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1,AUD 12.95,delivered,Victoria
+SS-100267,2026-06-02,spice-12,Spice Jar Set (12),1,29.95,Delivered,Victoria
+SS-100268,2026-06-02,MP-SET-5,Glass Meal Prep Set (5 pack),2,AUD 39.95,Delivered,South Australia
+SS-100268,02/06/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Delivered,South Australia
+SS-100269,2026-06-03,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,SA
+SS-100270,2026-06-03,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,VIC
+SS-100270,03/06/2026,MP-SET-10,Glass Meal Prep Set (10 pack),2,$69.95,delivered,Victoria
+SS-100271,2026-06-03,SPICE-12,Spice Jar Set (12),x1,29.95,Delivered,Queensland
+SS-100271,03/06/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,delivered,QLD
+SS-100272,2026-06-03,GLS-JAR-500,Glass Storage Jar 500ml,2,14.95,Shipped,VIC
+SS-100272,3 Jun 2026,spice-12,Spice Jar Set (12),2,$29.95,Shipped,Victoria
+SS-100273,4 Jun 2026,MP-SET-10,Glass Meal Prep Set (10 pack),1 unit,69.95,shipped,QLD
+SS-100274,2026-06-04 16:43:22,MP-SET-10,Glass Meal Prep Set (10 pack),x1,69.95,Delivered,Queensland
+SS-100275,2026-06-05,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,QLD
+SS-100276,05/06/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Refunded,QLD
+SS-100277,2026-06-05 19:24:26, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1,12.95,Shipped,VIC
+SS-100277,05/06/2026,SPICE-12,Spice Jar Set (12),2,$29.95,shipped,vic
+SS-100278,2026-06-05,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,Queensland
+SS-100279,05/06/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Shipped,VIC
+SS-100280,2026-06-06,LUNCH-2C,Two-Compartment Lunch Box,3 units,24.95,Delivered,Victoria
+SS-100281,07/06/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Delivered,NSW
+SS-100282,2026-06-07,MP-SET-10,Glass Meal Prep Set (10 pack),1, 69.95 ,delivered,Victoria
+SS-100283,7 Jun 2026,SPICE-12,Spice Jar Set (12),1,29.95,Delivered,NSW
+SS-100284,2026-06-07,gls-jar-1000,Glass Storage Jar 1L,1,19.95,Shipped,Queensland
+SS-100285,7 Jun 2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,AUD 69.95,SHIPPED,Queensland
+SS-100286,08/06/2026,oil-spray,Glass Oil Sprayer,1,$17.95,Delivered,NSW
+SS-100287,2026-06-08,GLS-JAR-500,Glass Storage Jar 500ml,2,$14.95,delivered,NSW
+SS-100288,08/06/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,SHIPPED,NSW
+SS-100289,2026-06-09,LID-BAMBOO-4,Bamboo Lids (4 pack),2,12.95,Delivered,Queensland
+SS-100290,9 Jun 2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,shipped,WA
+SS-100290,2026-06-09,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,Shipped,WA
+SS-100291,2026-06-09, MP-SET-5 ,Glass Meal Prep Set (5 pack),x1,$39.95,Shipped,NSW
+SS-100292,2026-06-10,SPICE-12,Spice Jar Set (12),x1,$29.95,Shipped,New South Wales
+SS-100293,10/06/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,VIC
+SS-100294,11/06/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Shipped,NSW
+SS-100295,11/06/2026,gls-jar-500,Glass Storage Jar 500ml,1,AUD 14.95,Shipped,WA
+SS-100296,2026-06-11,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Delivered,South Australia
+SS-100296,11/06/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,sa
+SS-100297,12/06/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,sa
+SS-100298,2026-06-12,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Shipped,TAS
+SS-100298,2026-06-12,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Shipped,TAS
+SS-100299,12 Jun 2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,NSW
+SS-100299,12 Jun 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Delivered,NSW
+SS-100300,12 Jun 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,QLD
+SS-100301,2026-06-13,LID-BAMBOO-4,Bamboo  Lids (4 pack),1 unit,AUD 12.95,Delivered,VIC
+SS-100302,2026-06-14,GLS-JAR-500,Glass Storage Jar 500ml,3,14.95,delivered,qld
+SS-100303,2026-06-15 15:14:38,SPICE-12,Spice Jar Set (12),3,29.95,Delivered,QLD
+SS-100304,2026-06-15 15:44:28,LID-BAMBOO-4,Bamboo Lids (4 pack),2, 12.95 ,Shipped,NSW
+SS-100305,2026-06-15,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,NSW
+SS-100306,2026-06-16,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,VIC
+SS-100307,2026-06-16,LUNCH-2C,Two-Compartment Lunch Box,1 unit,$24.95,Shipped,TAS
+SS-100308,2026-06-17,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,VIC
+SS-100308,2026-06-17,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,vic
+SS-100309,2026-06-17,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,VIC
+SS-100310,17 Jun 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,NSW
+SS-100310,2026-06-17,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,NSW
+SS-100310,17 Jun 2026, GLS-JAR-500 ,Glass Storage Jar 500ml,1,$14.95,Shipped,New South Wales
+SS-100311,17 Jun 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Delivered,vic
+SS-100311,2026-06-17,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,delivered,VIC
+SS-100312,2026-06-18,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,shipped,NSW
+SS-100312,2026-06-18 11:05:41,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,NSW
+
+SS-100313,2026-06-18, LUNCH-2C ,Two-Compartment Lunch Box,3,24.95,shipped,Victoria
+SS-100313,2026-06-18,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,VIC
+SS-100314,2026-06-18,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Delivered,NSW
+SS-100315,18/06/2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Shipped,New South Wales
+SS-100315,2026-06-18,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,NSW
+SS-100315,2026-06-18,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Shipped,NSW
+SS-100316,2026-06-19,LUNCH-2C,Two-Compartment Lunch Box,3,24.95,Delivered,VIC
+SS-100317,2026-06-19 14:24:49,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Delivered,New South Wales
+SS-100318,19/06/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1 unit,39.95,Shipped,Australian Capital Territory
+SS-100318,2026-06-19,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,ACT
+SS-100318,19/06/2026, OIL-SPRAY ,Glass Oil Sprayer,1,17.95,Shipped,Australian Capital Territory
+SS-100319,2026-06-20,lunch-2c,Two-Compartment Lunch Box,1,24.95,Refunded,WA
+SS-100319,20 Jun 2026,spice-12,Spice Jar Set (12),1,29.95,Refunded,WA
+SS-100320,2026-06-20,MP-SET-5,Glass Meal Prep Set (5 pack),2,39.95,Shipped,QLD
+SS-100321,2026-06-20 09:02:53,GLS-JAR-1000,Glass  Storage Jar 1L,1,19.95,Delivered,Victoria
+SS-100322,2026-06-20 09:00:59,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,QLD
+SS-100323,21 Jun 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,WA
+SS-100323,21/06/2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,delivered,WA
+SS-100324,2026-06-21 21:59:22,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,Victoria
+SS-100325,2026-06-21,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,SHIPPED,VIC
+SS-100326,2026-06-21,LID-BAMBOO-4,Bamboo Lids (4 pack),1 unit,12.95,Shipped,VIC
+SS-100326,21/06/2026,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Shipped,vic
+SS-100327,22 Jun 2026,spice-12,Spice Jar Set (12),1,$29.95,Delivered,New South Wales
+SS-100328,22/06/2026, MP-SET-5 ,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,NSW
+SS-100329,23/06/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,Victoria
+SS-100330,2026-06-23 20:20:43,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,QLD
+SS-100331,23 Jun 2026,LUNCH-2C,Two-Compartment Lunch Box,1,AUD 24.95,Shipped,NT
+SS-100332,2026-06-23,GLS-JAR-500,Glass Storage Jar 500ml,1,TBC,delivered,SA
+SS-100332,2026-06-23 07:24:37,MP-SET-5,Glass Meal Prep Set (5 pack),3,39.95,Delivered,SA
+SS-100333,23 Jun 2026,SPICE-12,Spice Jar Set (12),2,$29.95,canceled,NSW
+SS-100334,2026-06-24,GLS-JAR-500,Glass Storage Jar 500ml,2,$14.95,Cancelled,qld
+SS-100334,24 Jun 2026,GLS-JAR-1000,Glass  Storage Jar 1L,2,19.95,Cancelled,qld
+SS-100335,24/06/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Shipped,VIC
+SS-100335,2026-06-24 11:27:58,LUNCH-2C,Two-Compartment Lunch Box,1 unit,24.95,Shipped,vic
+SS-100335,24 Jun 2026,gls-jar-1000,Glass Storage Jar 1L,1,19.95,SHIPPED,Victoria
+SS-100336,24/06/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,shipped,WA
+SS-100337,2026-06-24,OIL-SPRAY,Glass Oil Sprayer,1 unit, 17.95 ,Delivered,Queensland
+SS-100338,25 Jun 2026,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,shipped,NSW
+SS-100338,2026-06-25,OIL-SPRAY,Glass  Oil Sprayer,x1,17.95,Shipped,New South Wales
+SS-100338,2026-06-25,lid-bamboo-4,Bamboo Lids (4 pack),1,12.95,Shipped,nsw
+SS-100339,25/06/2026,gls-jar-1000,Glass Storage Jar 1L,1,19.95,Delivered,VIC
+SS-100340,2026-06-25,SPICE-12,Spice Jar Set (12),1,29.95,Delivered,South Australia
+SS-100341,2026-06-26,MP-SET-5,Glass Meal Prep Set (5 pack),x2,39.95,Shipped,wa
+SS-100341,2026-06-26,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,Western Australia
+SS-100342,2026-06-26,LID-BAMBOO-4,Bamboo  Lids (4 pack),1 unit,$12.95,shipped,QLD
+SS-100343,26/06/2026, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1,12.95,Shipped,VIC
+SS-100344,26/06/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,delivered,NSW
+SS-100345,27/06/2026,SPICE-12,Spice Jar Set (12),1,$29.95,delivered,NT
+SS-100346,2026-06-27 13:51:39,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,NSW
+SS-100347,2026-06-27,SPICE-12,Spice Jar Set (12),1,29.95,Delivered,VIC
+SS-100348,2026-06-28,SPICE-12,Spice Jar Set (12),1,$29.95,Delivered,VIC
+SS-100349,28/06/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,delivered,Western Australia
+SS-100350,2026-06-28 18:28:53,LUNCH-2C,Two-Compartment Lunch Box,2,$24.95,shipped,nsw
+SS-100351,28/06/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1 unit,$69.95,SHIPPED,Victoria
+SS-100352,28/06/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,VIC
+SS-100352,2026-06-28,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,VIC
+SS-100352,2026-06-28,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,VIC
+SS-100353,2026-06-29,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,delivered,Victoria
+SS-100354,29 Jun 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,shipped,WA
+SS-100354,2026-06-29,OIL-SPRAY,Glass Oil Sprayer,1,AUD 17.95,Shipped,WA
+SS-100355,30 Jun 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,WA
+SS-100356,30/06/2026,SPICE-12,Spice Jar Set (12),1,$29.95,delivered,Australian Capital Territory
+SS-100357,2026-07-01,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Shipped,Queensland
+SS-100358,2026-07-01,GLS-JAR-500,Glass Storage Jar 500ml,1,AUD 14.95,Delivered,South Australia
+SS-100358,2026-07-01,OIL-SPRAY,Glass  Oil Sprayer,x2,17.95,Delivered,SA
+SS-100359,01/07/2026,SPICE-12,Spice Jar Set (12),2,29.95,Delivered,New South Wales
+SS-100359,2026-07-01,GLS-JAR-500,Glass Storage Jar 500ml,1 unit,14.95,Delivered,New South Wales
+SS-100360,1 Jul 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,Queensland
+SS-100360,01/07/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,QLD
+SS-100360,2026-07-01,GLS-JAR-1000,Glass Storage Jar 1L,1, 19.95 ,delivered,Queensland
+SS-100361,2026-07-02 16:39:03,GLS-JAR-1000,Glass  Storage Jar 1L,1,AUD 19.95,Shipped,VIC
+SS-100361,2026-07-02,spice-12,Spice Jar Set (12),3,$29.95,Shipped,VIC
+SS-100362,2 Jul 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,AUD 14.95,Shipped,NT
+SS-100362,2026-07-02,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,NT
+SS-100363,2026-07-02,LUNCH-2C,Two-Compartment Lunch Box,3,24.95,Cancelled,Queensland
+SS-100363,2026-07-02, OIL-SPRAY ,Glass Oil Sprayer,1,$17.95,Cancelled,QLD
+SS-100364,02/07/2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Shipped,NSW
+SS-100364,02/07/2026,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,nsw
+SS-100365,2026-07-02,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Shipped,NSW
+SS-100366,3 Jul 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,QLD
+SS-100367,3 Jul 2026,OIL-SPRAY,Glass Oil Sprayer,1, 17.95 ,Shipped,Victoria
+SS-100367,2026-07-03,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,vic
+SS-100367,03/07/2026,LUNCH-2C,Two-Compartment  Lunch Box,1,$24.95,Shipped,VIC
+SS-100368,2026-07-03,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,Victoria
+SS-100369,3 Jul 2026,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,VIC
+SS-100369,3 Jul 2026,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,shipped,VIC
+SS-100369,2026-07-03,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,vic
+SS-100370,2026-07-04,LUNCH-2C,Two-Compartment Lunch Box,2,24.95,SHIPPED,NSW
+SS-100370,2026-07-04,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,New South Wales
+SS-100371,2026-07-04 19:20:07,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,delivered,WA
+SS-100372,04/07/2026,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,New South Wales
+SS-100373,2026-07-04,LID-BAMBOO-4,Bamboo Lids (4 pack),1,AUD 12.95,Shipped,TAS
+SS-100373,4 Jul 2026,MP-SET-10,Glass  Meal Prep Set (10 pack),1,69.95,Shipped,TAS
+SS-100374,2026-07-04,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,delivered,VIC
+SS-100375,2026-07-05,LUNCH-2C,Two-Compartment Lunch Box,1,AUD 24.95,shipped,NSW
+SS-100376,2026-07-05,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,QLD
+SS-100377,2026-07-05,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,NSW
+
+SS-100378,5 Jul 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,New South Wales
+SS-100379,2026-07-06,MP-SET-5,Glass Meal Prep Set (5 pack),2,39.95,Delivered,South Australia
+SS-100380,2026-07-06,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,NSW
+SS-100381,6 Jul 2026,MP-SET-5,Glass Meal Prep Set (5 pack),2,$39.95,Delivered,Australian Capital Territory
+SS-100382,2026-07-07, MP-SET-10 ,Glass Meal Prep Set (10 pack),1 unit,69.95,Shipped,WA
+SS-100383,2026-07-07,GLS-JAR-1000,Glass Storage Jar 1L,1 unit,$19.95,SHIPPED,VIC
+SS-100384,2026-07-07,OIL-SPRAY,Glass Oil Sprayer,1,17.95,shipped,vic
+SS-100385,2026-07-07,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,QLD
+SS-100386,08/07/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1 unit,39.95,SHIPPED,Victoria
+SS-100387,2026-07-08,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,shipped,QLD
+SS-100388,08/07/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Cancelled,QLD
+SS-100389,08/07/2026,SPICE-12,Spice Jar Set (12),3 units,29.95,Shipped,QLD
+SS-100390,2026-07-09 22:57:18,SPICE-12,Spice Jar Set (12),1,$29.95,shipped,nsw
+SS-100390,2026-07-09,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Shipped,NSW
+SS-100391,2026-07-09,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Delivered,QLD
+SS-100392,2026-07-09,OIL-SPRAY,Glass Oil Sprayer,1,17.95,delivered,Victoria
+SS-100393,09/07/2026,OIL-SPRAY,Glass Oil Sprayer,x2,17.95,Shipped,nsw
+SS-100393,2026-07-09 07:26:40,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,NSW
+SS-100394,9 Jul 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Delivered,New South Wales
+SS-100394,9 Jul 2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Delivered,NSW
+SS-100395,2026-07-09,SPICE-12,Spice Jar Set (12),1 unit,29.95,Delivered,ACT
+SS-100395,2026-07-09,LID-BAMBOO-4,Bamboo Lids (4 pack),2,$12.95,delivered,ACT
+SS-100396,2026-07-10,SPICE-12,Spice Jar Set (12),1,29.95,delivered,WA
+SS-100397,2026-07-10,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,nsw
+SS-100397,2026-07-10,MP-SET-10,Glass Meal Prep Set (10 pack),3 units,69.95,Shipped,NSW
+SS-100398,2026-07-10,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,QLD
+SS-100398,2026-07-10,gls-jar-500,Glass Storage Jar 500ml,1,14.95,shipped,qld
+SS-100399,11/07/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,SHIPPED,NSW
+SS-100400,2026-07-11 12:28:43,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,NSW
+SS-100401,2026-07-11,SPICE-12,Spice Jar Set (12),1,$29.95,shipped,NSW
+SS-100402,11/07/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Refunded,Victoria
+SS-100402,2026-07-11 12:04:23,SPICE-12,Spice Jar Set (12),x1,29.95,refunded,Victoria
+SS-100403,2026-07-12,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Shipped,WA
+SS-100404,12/07/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,shipped,NSW
+SS-100405,2026-07-12 08:27:56,GLS-JAR-500,Glass Storage Jar 500ml,3,14.95,Delivered,NSW
+SS-100406,2026-07-13,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,Queensland
+SS-100407,2026-07-13,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,VIC
+SS-100407,13/07/2026,OIL-SPRAY,Glass Oil Sprayer,3,AUD 17.95,Shipped,VIC
+SS-100407,13/07/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,VIC
+SS-100408,2026-07-14, MP-SET-10 ,Glass Meal Prep Set (10 pack),1, 69.95 ,Shipped,Victoria
+SS-100409,14/07/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Shipped,NSW
+SS-100410,15/07/2026,SPICE-12,Spice Jar Set (12),1 unit,$29.95,Delivered,VIC
+SS-100411,15/07/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),2,12.95,delivered,Western Australia
+SS-100411,15 Jul 2026,SPICE-12,Spice Jar Set (12),1,$29.95,Delivered,WA
+SS-100411,15/07/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,WA
+SS-100412,2026-07-15,LUNCH-2C,Two-Compartment Lunch Box,1 unit,$24.95,delivered,NSW
+SS-100412,15/07/2026, OIL-SPRAY ,Glass Oil Sprayer,2,AUD 17.95,delivered,NSW
+SS-100413,2026-07-16,OIL-SPRAY,Glass Oil Sprayer,2,17.95,delivered,VIC
+SS-100414,2026-07-16 15:56:50,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,delivered,NSW
+SS-100415,2026-07-16 19:19:40,MP-SET-10,Glass Meal Prep Set (10 pack),1,AUD 69.95,delivered,TAS
+SS-100416,17 Jul 2026,GLS-JAR-1000,Glass Storage Jar 1L,2,$19.95,Shipped,Australian Capital Territory
+SS-100417,17 Jul 2026,OIL-SPRAY,Glass Oil Sprayer,2,17.95,Shipped,Western Australia
+SS-100418,17 Jul 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,VIC
+SS-100419,17/07/2026,OIL-SPRAY,Glass Oil Sprayer,2,$17.95,Cancelled,WA
+SS-100419,2026-07-17 14:01:01,LUNCH-2C,Two-Compartment Lunch Box,2 units, 24.95 ,Cancelled,Western Australia
+SS-100420,2026-07-18 20:49:58,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,SHIPPED,New South Wales
+SS-100421,2026-07-18,MP-SET-10,Glass Meal Prep Set (10 pack),1, 69.95 ,Delivered,VIC
+SS-100422,19/07/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,QLD
+SS-100423,19/07/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,SA
+SS-100423,19/07/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,SHIPPED,South Australia
+SS-100423,2026-07-19,MP-SET-5,Glass Meal Prep Set (5 pack),2,39.95,Shipped,South Australia
+SS-100424,2026-07-19,LUNCH-2C,Two-Compartment Lunch Box,1,AUD 24.95,Cancelled,QLD
+SS-100424,19 Jul 2026,gls-jar-500,Glass Storage Jar 500ml,1,AUD 14.95,Cancelled,QLD
+SS-100424,19/07/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Cancelled,Queensland
+SS-100425,2026-07-19,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Delivered,QLD
+SS-100426,2026-07-20,MP-SET-5,Glass Meal Prep Set (5 pack),2,39.95,Cancelled,N.T.
+SS-100426,20 Jul 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Cancelled,NT
+SS-100427,20 Jul 2026,GLS-JAR-1000,Glass Storage Jar 1L,2,$19.95,shipped,QLD
+SS-100428,21/07/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,shipped,NSW
+SS-100429,2026-07-21 08:35:04,OIL-SPRAY,Glass Oil Sprayer,1,17.95,delivered,Victoria
+SS-100430,22 Jul 2026,MP-SET-5,Glass Meal Prep Set (5 pack),2,$39.95,Shipped,QLD
+SS-100431,2026-07-23,LID-BAMBOO-4,Bamboo  Lids (4 pack),2,12.95,Delivered,New South Wales
+SS-100432,2026-07-23,SPICE-12,Spice Jar Set (12),1,$29.95,Delivered,VIC
+SS-100432,23/07/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,VIC
+SS-100433,2026-07-24,MP-SET-10,Glass Meal Prep Set (10 pack),x1,$69.95,CANCELED,VIC
+SS-100433,24/07/2026,GLS-JAR-1000,Glass Storage Jar 1L,1 unit,AUD 19.95,Cancelled,VIC
+SS-100433,2026-07-24,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Cancelled,VIC
+SS-100434,24/07/2026,lunch-2c,Two-Compartment Lunch Box,1,24.95,SHIPPED,New South Wales
+SS-100434,24 Jul 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,NSW
+SS-100435,2026-07-24 13:35:03,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,delivered,NSW
+SS-100436,24 Jul 2026,MP-SET-10,Glass Meal Prep Set (10 pack),1 unit,AUD 69.95,SHIPPED,NSW
+SS-100437,2026-07-25,GLS-JAR-1000,Glass Storage Jar 1L,1 unit,AUD 19.95,Shipped,TAS
+SS-100437,2026-07-25,GLS-JAR-500,Glass Storage Jar 500ml,1, 14.95 ,shipped,TAS
+SS-100438,25/07/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,delivered,NSW
+SS-100439,25/07/2026,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,SA
+SS-100439,2026-07-25,GLS-JAR-500,Glass Storage Jar 500ml,2,14.95,Shipped,SA
+SS-100440,2026-07-25,SPICE-12,Spice Jar Set (12),2,$29.95,Delivered,Victoria
+SS-100440,2026-07-25,GLS-JAR-500,Glass Storage Jar 500ml,1,AUD 14.95,Delivered,VIC
+SS-100441,25 Jul 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,VIC
+SS-100442,2026-07-26,LUNCH-2C,Two-Compartment Lunch Box,3,$24.95,Shipped,NSW
+SS-100442,2026-07-26,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,NSW
+SS-100443,2026-07-26 22:40:27,OIL-SPRAY,Glass Oil Sprayer,2,17.95,Delivered,VIC
+SS-100444,26/07/2026, GLS-JAR-1000 ,Glass Storage Jar 1L,x1,$19.95,Shipped,ACT
+SS-100445,2026-07-26,SPICE-12,Spice Jar Set (12),1 unit,29.95,Shipped,NSW
+SS-100446,2026-07-26 16:36:28,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,shipped,VIC
+SS-100447,2026-07-27 20:24:14,SPICE-12,Spice  Jar Set (12),1,29.95,Shipped,VIC
+SS-100447,2026-07-27,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,VIC
+SS-100448,2026-07-27,MP-SET-5,Glass Meal Prep Set (5 pack),3,$39.95,Delivered,SA
+SS-100449,2026-07-27, OIL-SPRAY ,Glass Oil Sprayer,1,17.95,delivered,NSW
+SS-100450,2026-07-27,mp-set-5,Glass Meal Prep Set (5 pack),1 unit,AUD 39.95,Delivered,NSW
+SS-100450,2026-07-27,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,New South Wales
+SS-100450,27/07/2026,SPICE-12,Spice Jar Set (12),3,29.95,Delivered,NSW
+SS-100451,2026-07-28, LUNCH-2C ,Two-Compartment  Lunch Box,1 unit,24.95,Delivered,Victoria
+SS-100452,2026-07-29,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,QLD
+SS-100453,29/07/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),x3,12.95,SHIPPED,QLD
+SS-100454,29/07/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,delivered,New South Wales
+SS-100455,2026-07-29,SPICE-12,Spice  Jar Set (12),1,$29.95,Shipped,Western Australia
+SS-100455,2026-07-29, MP-SET-10 ,Glass Meal Prep Set (10 pack),2,69.95,shipped,Western Australia
+SS-100455,2026-07-29,MP-SET-10,Glass Meal Prep Set (10 pack),2,$69.95,Shipped,Western Australia
+SS-100456,29/07/2026,MP-SET-5,Glass Meal Prep Set (5 pack),2, 39.95 ,Shipped,QLD
+SS-100456,29/07/2026,LUNCH-2C,Two-Compartment Lunch Box,2,$24.95,Shipped,QLD
+SS-100457,2026-07-29,MP-SET-10,Glass Meal Prep Set (10 pack),1 unit,$69.95,delivered,VIC
+SS-100458,30/07/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,VIC
+SS-100459,2026-07-30 10:05:03,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Shipped,Western Australia
+SS-100459,30/07/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,shipped,WA
+SS-100459,2026-07-30,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,WA
+SS-100460,2026-07-30,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Delivered,NSW
+SS-100461,2026-07-30,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,QLD
+SS-100462,2026-07-30,MP-SET-10,Glass Meal Prep Set (10 pack),x3,$69.95,Delivered,SA
+SS-100463,2026-07-30 08:31:14,LUNCH-2C,Two-Compartment Lunch Box,2,24.95,Delivered,Victoria
+SS-100464,31/07/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,AUD 14.95,Delivered,vic
+SS-100465,2026-07-31,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,New South Wales
+SS-100466,2026-07-31,SPICE-12,Spice Jar Set (12),1,29.95,Cancelled,VIC
+SS-100467,01/08/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Shipped,Queensland
+SS-100468,2026-08-01,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Delivered,QLD
+SS-100469,2026-08-01,MP-SET-10,Glass Meal Prep Set (10 pack),2,AUD 69.95,Delivered,QLD
+SS-100470,2026-08-01,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,VIC
+SS-100471,2026-08-02,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,New South Wales
+SS-100471,02/08/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Shipped,nsw
+SS-100472,02/08/2026,MP-SET-5,Glass Meal Prep Set (5 pack),2,$39.95,delivered,WA
+SS-100473,02/08/2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,shipped,NSW
+SS-100473,02/08/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,nsw
+SS-100474,2026-08-03,OIL-SPRAY,Glass Oil Sprayer,x1,$17.95,Delivered,QLD
+SS-100475,2026-08-04,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,WA
+SS-100476,4 Aug 2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Shipped,NSW
+SS-100477,2026-08-05,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,NSW
+SS-100478,2026-08-05,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Delivered,VIC
+SS-100478,05/08/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Delivered,VIC
+SS-100479,2026-08-06,GLS-JAR-1000,Glass  Storage Jar 1L,1,$19.95,Delivered,NT
+SS-100480,06/08/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,SHIPPED,NSW
+SS-100481,2026-08-06,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,NSW
+SS-100482,2026-08-07,GLS-JAR-1000,Glass Storage Jar 1L,1 unit,19.95,Delivered,WA
+SS-100482,07/08/2026,MP-SET-10,Glass Meal Prep Set (10 pack),3,$69.95,Delivered,Western Australia
+SS-100483,2026-08-07,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Delivered,WA
+SS-100484,7 Aug 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,delivered,NSW
+SS-100485,08/08/2026,oil-spray,Glass Oil Sprayer,1 unit,17.95,Shipped,VIC
+SS-100486,08/08/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,QLD
+SS-100487,2026-08-08,LUNCH-2C,Two-Compartment  Lunch Box,1,24.95,shipped,Tasmania
+SS-100488,2026-08-09,MP-SET-10,Glass Meal Prep Set (10 pack),1,AUD 69.95,Shipped,NSW
+SS-100488,2026-08-09,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Shipped,NSW
+SS-100489,2026-08-09,LID-BAMBOO-4,Bamboo Lids (4 pack),x1,12.95,Shipped,VIC
+SS-100490,9 Aug 2026,lunch-2c,Two-Compartment Lunch Box,1,$24.95,Delivered,WA
+SS-100490,2026-08-09,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,Western Australia
+SS-100491,2026-08-10,spice-12,Spice Jar Set (12),1,29.95,Delivered,TAS
+SS-100491,2026-08-10,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Delivered,tas
+SS-100491,10/08/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,tas
+SS-100492,2026-08-10,OIL-SPRAY,Glass Oil Sprayer,1,17.95,SHIPPED,Western Australia
+SS-100493,2026-08-11 15:47:13,SPICE-12,Spice Jar Set (12),x2,$29.95,Delivered,QLD
+SS-100494,2026-08-11, MP-SET-5 ,Glass Meal Prep Set (5 pack),1,39.95,Delivered,QLD
+SS-100494,2026-08-11 20:28:40,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,QLD
+SS-100495,11 Aug 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,vic
+SS-100495,2026-08-11,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,VIC
+SS-100496,12 Aug 2026,GLS-JAR-500,Glass Storage Jar 500ml,2 units,14.95,Refunded,South Australia
+SS-100496,12/08/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1 unit,69.95,Refunded,sa
+SS-100497,2026-08-12 09:22:27, LUNCH-2C ,Two-Compartment Lunch Box,1,$24.95,Delivered,QLD
+SS-100498,12/08/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,South Australia
+SS-100498,2026-08-12 09:06:27,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,South Australia
+SS-100499,2026-08-12 17:55:14,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,CANCELED,Queensland
+SS-100500,2026-08-12,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Delivered,Queensland
+SS-100500,12/08/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,delivered,qld
+SS-100501,2026-08-13,SPICE-12,Spice Jar Set (12),2,$29.95,shipped,New South Wales
+SS-100501,13/08/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,nsw
+SS-100502,13/08/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1 unit,69.95,Delivered,NSW
+SS-100502,2026-08-13,SPICE-12,Spice Jar Set (12),1,29.95,delivered,NSW
+SS-100503,2026-08-13,lid-bamboo-4,Bamboo Lids (4 pack),1,12.95,Delivered,QLD
+SS-100503,13/08/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,delivered,QLD
+SS-100504,2026-08-14,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Shipped,Victoria
+SS-100505,2026-08-14,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Delivered,SA
+SS-100506,2026-08-15,oil-spray,Glass Oil Sprayer,1,$17.95,Delivered,NSW
+SS-100507,2026-08-15,gls-jar-1000,Glass Storage Jar 1L,1,19.95,Delivered,VIC
+SS-100508,2026-08-15,GLS-JAR-500,Glass Storage Jar 500ml,1 unit,14.95,Delivered,nsw
+SS-100509,16/08/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,Queensland
+SS-100510,2026-08-16,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,QLD
+SS-100511,2026-08-16, MP-SET-10 ,Glass Meal Prep Set (10 pack),1,$69.95,Delivered,NSW
+SS-100511,2026-08-16,spice-12,Spice Jar Set (12),1,$29.95,Delivered,NSW
+SS-100512,16 Aug 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Shipped,ACT
+SS-100512,16 Aug 2026,LUNCH-2C,Two-Compartment Lunch Box,1,AUD 24.95,Shipped,ACT
+SS-100513,16/08/2026, MP-SET-5 ,Glass Meal Prep Set (5 pack),1,$39.95,delivered,QLD
+SS-100514,2026-08-17,MP-SET-10,Glass Meal Prep Set (10 pack),2,AUD 69.95,Shipped,VIC
+SS-100514,2026-08-17, MP-SET-5 ,Glass Meal Prep Set (5 pack),1 unit,39.95,Shipped,Victoria
+SS-100514,17/08/2026,spice-12,Spice Jar Set (12),1,$29.95,shipped,VIC
+
+SS-100515,17 Aug 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Cancelled,W.A.
+SS-100515,2026-08-17 18:07:21,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Cancelled,WA
+SS-100516,17 Aug 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),2,12.95,Delivered,QLD
+SS-100517,17 Aug 2026,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Delivered,VIC
+SS-100518,2026-08-18,LID-BAMBOO-4,Bamboo Lids (4 pack),1,AUD 12.95,shipped,SA
+SS-100519,2026-08-18 13:30:42,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,Victoria
+SS-100520,19/08/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,delivered,Western Australia
+SS-100521,19 Aug 2026,mp-set-10,Glass Meal Prep Set (10 pack),1,$69.95,Shipped,Victoria
+SS-100521,19/08/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,SHIPPED,vic
+SS-100522,2026-08-20,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,nsw
+SS-100523,2026-08-20,gls-jar-500,Glass Storage Jar 500ml,1,AUD 14.95,Shipped,SA
+SS-100524,20/08/2026,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,QLD
+SS-100524,20 Aug 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,SHIPPED,QLD
+SS-100525,20/08/2026,mp-set-5,Glass Meal Prep Set (5 pack),1,$39.95,Delivered,WA
+SS-100526,2026-08-20, GLS-JAR-500 ,Glass Storage Jar 500ml,x1,14.95,shipped,VIC
+SS-100527,2026-08-21,OIL-SPRAY,Glass Oil Sprayer,1,AUD 17.95,Shipped,VIC
+SS-100528,21/08/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1 unit,12.95,Shipped,sa
+SS-100529,2026-08-21 18:40:38,GLS-JAR-1000,Glass Storage Jar 1L,1 unit,19.95,Refunded,nt
+SS-100530,2026-08-22 15:11:16,SPICE-12,Spice Jar Set (12),1,$29.95,Refunded,Queensland
+SS-100531,2026-08-22,MP-SET-10,Glass Meal Prep Set (10 pack),2,69.95,delivered,SA
+SS-100532,22/08/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,VIC
+SS-100533,2026-08-23,GLS-JAR-500,Glass Storage Jar 500ml,1 unit,14.95,refunded,NSW
+SS-100534,2026-08-23,GLS-JAR-1000,Glass Storage Jar 1L,1 unit,$19.95,Delivered,WA
+SS-100535,2026-08-23,gls-jar-500,Glass Storage Jar 500ml,2,14.95,Delivered,NSW
+SS-100536,2026-08-23 10:14:06,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,SHIPPED,TAS
+SS-100537,24/08/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1 unit,39.95,Shipped,VIC
+SS-100538,2026-08-24,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,Western Australia
+SS-100538,2026-08-24,OIL-SPRAY,Glass Oil Sprayer,1,17.95,delivered,WA
+SS-100539,24 Aug 2026,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Delivered,New South Wales
+SS-100540,2026-08-24,GLS-JAR-500,Glass Storage Jar 500ml,1 unit,$14.95,Shipped,NSW
+SS-100540,24 Aug 2026,MP-SET-5,Glass Meal Prep Set (5 pack),x3,$39.95,Shipped,NSW
+SS-100540,2026-08-24,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,NSW
+SS-100541,24/08/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Delivered,New South Wales
+SS-100542,24 Aug 2026,oil-spray,Glass Oil Sprayer,1,17.95,Shipped,nsw
+SS-100543,2026-08-25,MP-SET-5,Glass Meal Prep Set (5 pack),2,39.95,shipped,Queensland
+SS-100544,2026-08-25,SPICE-12,Spice  Jar Set (12),1 unit,29.95,Shipped,nsw
+SS-100545,2026-08-25,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,shipped,Queensland
+SS-100546,25 Aug 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,NSW
+SS-100547,2026-08-26 12:32:33,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Cancelled,NSW
+SS-100548,26/08/2026,OIL-SPRAY,Glass Oil Sprayer,1,AUD 17.95,Cancelled,nsw
+SS-100548,2026-08-26,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Cancelled,New South Wales
+SS-100549,2026-08-26,lunch-2c,Two-Compartment Lunch Box,2 units,AUD 24.95,Refunded,ACT
+SS-100549,2026-08-26,SPICE-12,Spice Jar Set (12),x3,29.95,refunded,ACT
+SS-100550,2026-08-27,OIL-SPRAY,Glass Oil Sprayer,2,AUD 17.95,Shipped,NSW
+SS-100551,2026-08-27,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Delivered,TAS
+SS-100551,2026-08-27, LUNCH-2C ,Two-Compartment Lunch Box,1,24.95,Delivered,Tasmania
+SS-100552,2026-08-27,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Delivered,New South Wales
+
+SS-100553,28/08/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,Delivered,Victoria
+SS-100553,28/08/2026,GLS-JAR-1000,Glass Storage Jar 1L,x2,AUD 19.95,delivered,Victoria
+SS-100554,28/08/2026, SPICE-12 ,Spice Jar Set (12),1 unit,$29.95,Shipped,VIC
+SS-100555,2026-08-29 13:43:36,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,delivered,WA
+SS-100556,2026-08-29,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Refunded,Victoria
+SS-100557,2026-08-29, GLS-JAR-1000 ,Glass Storage Jar 1L,3,$19.95,Shipped,New South Wales
+SS-100558,30 Aug 2026, MP-SET-10 ,Glass Meal Prep Set (10 pack),1,69.95,delivered,Queensland
+SS-100558,30/08/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,AUD 19.95,delivered,Queensland
+SS-100558,2026-08-30,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Delivered,QLD
+SS-100559,30 Aug 2026,OIL-SPRAY,Glass Oil Sprayer,1, 17.95 ,Delivered,vic
+SS-100560,30/08/2026,GLS-JAR-1000,Glass Storage Jar 1L,1 unit,19.95,Shipped,NSW
+SS-100560,30/08/2026, SPICE-12 ,Spice Jar Set (12),1,$29.95,SHIPPED,New South Wales
+SS-100561,2026-08-31 08:17:05,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Shipped,NSW
+SS-100561,2026-08-31,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,NSW
+SS-100562,2026-08-31,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,qld
+SS-100563,2026-08-31,MP-SET-5,Glass  Meal Prep Set (5 pack),1,39.95,delivered,QLD
+SS-100564,31/08/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,SHIPPED,nsw
+SS-100564,31/08/2026,LUNCH-2C,Two-Compartment Lunch Box,1, 24.95 ,Shipped,New South Wales
+SS-100565,01/09/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,WA
+SS-100566,2026-09-01,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,ACT
+SS-100567,01/09/2026,SPICE-12,Spice Jar Set (12),2,$29.95,delivered,New South Wales
+SS-100568,2026-09-01,SPICE-12,Spice Jar Set (12),1,29.95,Delivered,VIC
+SS-100568,1 Sep 2026, OIL-SPRAY ,Glass Oil Sprayer,1,$17.95,Delivered,vic
+SS-100569,2026-09-01,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Shipped,QLD
+SS-100570,2026-09-02, GLS-JAR-1000 ,Glass Storage Jar 1L,1,19.95,Cancelled,New South Wales
+SS-100571,2026-09-03 08:07:03,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Delivered,VIC
+SS-100572,2026-09-03,OIL-SPRAY,Glass Oil Sprayer,1,$17.95,Shipped,NSW
+SS-100572,3 Sep 2026,SPICE-12,Spice Jar Set (12),1,29.95,SHIPPED,NSW
+SS-100572,2026-09-03,SPICE-12,Spice Jar Set (12),1,$29.95,Shipped,NSW
+SS-100573,2026-09-03,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Cancelled,QLD
+SS-100574,3 Sep 2026,LUNCH-2C,Two-Compartment  Lunch Box,2,24.95,Cancelled,qld
+SS-100575,04/09/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Delivered,VIC
+SS-100576,04/09/2026,MP-SET-10,Glass Meal Prep Set (10 pack),2,69.95,Delivered,QLD
+SS-100576,4 Sep 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Delivered,QLD
+SS-100576,04/09/2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,qld
+SS-100577,2026-09-04 07:38:22,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,shipped,NSW
+SS-100577,4 Sep 2026,LUNCH-2C,Two-Compartment Lunch Box,2,24.95,Shipped,NSW
+SS-100577,2026-09-04,SPICE-12,Spice Jar Set (12),1,AUD 29.95,SHIPPED,NSW
+SS-100578,2026-09-05,OIL-SPRAY,Glass Oil Sprayer,2,17.95,Delivered,qld
+SS-100579,05/09/2026,lunch-2c,Two-Compartment Lunch Box,3, 24.95 ,Shipped,NSW
+SS-100580,2026-09-05 18:18:07,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,SHIPPED,QLD
+SS-100581,2026-09-05,GLS-JAR-500,Glass  Storage Jar 500ml,1,$14.95,Shipped,NSW
+SS-100581,2026-09-05, MP-SET-10 ,Glass Meal Prep Set (10 pack),1,69.95,Shipped,NSW
+SS-100582,2026-09-06,lid-bamboo-4,Bamboo Lids (4 pack),2,$12.95,Shipped,ACT
+SS-100583,06/09/2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,NSW
+SS-100583,2026-09-06,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,Shipped,NSW
+SS-100583,2026-09-06,GLS-JAR-1000,Glass  Storage Jar 1L,2,AUD 19.95,Shipped,NSW
+SS-100584,6 Sep 2026,GLS-JAR-1000,Glass Storage Jar 1L,2,$19.95,delivered,QLD
+SS-100585,06/09/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,Cancelled,NSW
+SS-100585,2026-09-06 21:25:03,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,CANCELED,NSW
+SS-100586,07/09/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,QLD
+SS-100587,7 Sep 2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,VIC
+SS-100588,8 Sep 2026,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,Victoria
+SS-100589,2026-09-08,MP-SET-5,Glass Meal Prep Set (5 pack),x1,$39.95,Delivered,Victoria
+SS-100589,2026-09-08, LUNCH-2C ,Two-Compartment Lunch Box,1,24.95,Delivered,Victoria
+SS-100590,8 Sep 2026,LUNCH-2C,Two-Compartment Lunch Box,x3,AUD 24.95,Shipped,NSW
+SS-100590,08/09/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,nsw
+SS-100590,08/09/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,shipped,NSW
+SS-100591,09/09/2026,mp-set-5,Glass Meal Prep Set (5 pack),2, 39.95 ,CANCELED,NSW
+SS-100592,2026-09-09,SPICE-12,Spice Jar Set (12),1,29.95,Shipped,WA
+SS-100593,2026-09-09,lid-bamboo-4,Bamboo Lids (4 pack),2,12.95,Shipped,VIC
+SS-100594,2026-09-10,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,delivered,sa
+SS-100595,10/09/2026,gls-jar-500,Glass Storage Jar 500ml,1,14.95,delivered,NSW
+SS-100596,10 Sep 2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Shipped,VIC
+SS-100597,2026-09-11,mp-set-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,New South Wales
+SS-100597,11 Sep 2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Shipped,NSW
+SS-100598,2026-09-11, OIL-SPRAY ,Glass Oil Sprayer,1,$17.95,delivered,nt
+SS-100599,11/09/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1, 69.95 ,Shipped,VIC
+SS-100600,11/09/2026,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Delivered,VIC
+SS-100601,2026-09-11,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,NSW
+SS-100602,12 Sep 2026,mp-set-10,Glass Meal Prep Set (10 pack),1,$69.95,delivered,tas
+SS-100602,12/09/2026,OIL-SPRAY,Glass Oil Sprayer,x3,17.95,delivered,TAS
+SS-100603,2026-09-12,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,shipped,QLD
+SS-100604,2026-09-12, MP-SET-5 ,Glass Meal Prep Set (5 pack),1,39.95,Delivered,vic
+SS-100605,2026-09-12,MP-SET-5,Glass Meal Prep Set (5 pack),1 unit,$39.95,Delivered,Victoria
+SS-100606,12/09/2026,mp-set-10,Glass Meal Prep Set (10 pack),1,$69.95,Delivered,VIC
+SS-100607,2026-09-13,SPICE-12,Spice  Jar Set (12),2,29.95,delivered,nsw
+SS-100608,2026-09-13,SPICE-12,Spice Jar Set (12),1,$29.95,Cancelled,NSW
+SS-100609,2026-09-13 09:04:59,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,WA
+SS-100610,2026-09-13,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Delivered,Queensland
+SS-100611,2026-09-14,GLS-JAR-1000,Glass Storage Jar 1L,2,19.95,Delivered,Victoria
+SS-100612,2026-09-14, LID-BAMBOO-4 ,Bamboo Lids (4 pack),1,$12.95,delivered,New South Wales
+SS-100612,14 Sep 2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,AUD 12.95,delivered,NSW
+SS-100613,14/09/2026,OIL-SPRAY,Glass Oil Sprayer,2,$17.95,Shipped,NSW
+SS-100614,2026-09-14,LUNCH-2C,Two-Compartment Lunch Box,1,AUD 24.95,delivered,NSW
+SS-100614,2026-09-14,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,delivered,NSW
+SS-100614,2026-09-14,SPICE-12,Spice Jar Set (12),1,AUD 29.95,delivered,New South Wales
+SS-100615,2026-09-15,SPICE-12,Spice Jar Set (12),1 unit,29.95,Shipped,SA
+SS-100616,15/09/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,nsw
+SS-100617,2026-09-15,GLS-JAR-1000,Glass Storage Jar 1L,x1,$19.95,Shipped,NSW
+SS-100618,2026-09-15,spice-12,Spice Jar Set (12),1 unit,$29.95,Delivered,Queensland
+SS-100619,15/09/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Delivered,NSW
+SS-100620,2026-09-15,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Cancelled,SA
+SS-100620,15/09/2026,MP-SET-10,Glass Meal Prep Set (10 pack),2,69.95,Cancelled,SA
+SS-100621,2026-09-16,OIL-SPRAY,Glass Oil Sprayer,1,17.95,shipped,VIC
+SS-100622,2026-09-16,OIL-SPRAY,Glass Oil Sprayer,1,AUD 17.95,Shipped,New South Wales
+SS-100623,2026-09-16,MP-SET-5,Glass  Meal Prep Set (5 pack),1,$39.95,Delivered,Victoria
+SS-100624,16/09/2026,mp-set-10,Glass Meal Prep Set (10 pack),1,AUD 69.95,Delivered,QLD
+SS-100625,2026-09-16,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,CANCELED,New South Wales
+SS-100626,17/09/2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,Western Australia
+SS-100626,2026-09-17,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,WA
+SS-100627,2026-09-17 22:46:25,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Cancelled,Queensland
+SS-100628,2026-09-18 12:13:55,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,Shipped,New South Wales
+SS-100629,18/09/2026,SPICE-12,Spice  Jar Set (12),2,$29.95,shipped,VIC
+SS-100630,18 Sep 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,delivered,VIC
+SS-100630,18 Sep 2026,GLS-JAR-500,Glass  Storage Jar 500ml,1, 14.95 ,delivered,Victoria
+SS-100631,2026-09-19 13:51:39,MP-SET-5,Glass Meal Prep Set (5 pack),1,39.95,Shipped,South Australia
+SS-100632,2026-09-19, LUNCH-2C ,Two-Compartment Lunch Box,1,$24.95,Delivered,NSW
+SS-100632,19/09/2026,gls-jar-500,Glass Storage Jar 500ml,1,14.95,Delivered,nsw
+SS-100633,2026-09-19,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,delivered,VIC
+SS-100633,19 Sep 2026,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,delivered,VIC
+SS-100634,19 Sep 2026,SPICE-12,Spice Jar Set (12),2,$29.95,Shipped,NSW
+SS-100634,19/09/2026,GLS-JAR-500,Glass Storage Jar 500ml,1, 14.95 ,SHIPPED,New South Wales
+SS-100635,2026-09-20,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,W.A.
+SS-100636,2026-09-20,GLS-JAR-500,Glass Storage Jar 500ml,1,AUD 14.95,Shipped,NSW
+SS-100636,2026-09-20,GLS-JAR-1000,Glass Storage Jar 1L,1,AUD 19.95,SHIPPED,nsw
+SS-100637,2026-09-20,gls-jar-1000,Glass Storage Jar 1L,1,19.95,Delivered,Victoria
+SS-100637,20/09/2026,GLS-JAR-500,Glass Storage Jar 500ml,2,AUD 14.95,delivered,VIC
+SS-100638,20 Sep 2026,OIL-SPRAY,Glass Oil Sprayer,1,17.95,Delivered,VIC
+SS-100639,2026-09-20,GLS-JAR-500,Glass Storage Jar 500ml,1 unit,14.95,SHIPPED,QLD
+SS-100639,20 Sep 2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,Queensland
+SS-100640,2026-09-21,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,Delivered,NSW
+SS-100640,2026-09-21,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Delivered,nsw
+SS-100641,21/09/2026,OIL-SPRAY,Glass Oil Sprayer,2,17.95,shipped,QLD
+SS-100641,21/09/2026,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,Shipped,qld
+SS-100641,2026-09-21,SPICE-12,Spice Jar Set (12),1,29.95,SHIPPED,QLD
+SS-100642,2026-09-22,OIL-SPRAY,Glass Oil Sprayer,1,17.95,delivered,Victoria
+SS-100643,2026-09-22,LID-BAMBOO-4,Bamboo Lids (4 pack),3,$12.95,Delivered,vic
+SS-100644,2026-09-22,GLS-JAR-500,Glass  Storage Jar 500ml,1,AUD 14.95,Shipped,QLD
+SS-100644,2026-09-22,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Shipped,QLD
+SS-100645,2026-09-22, LUNCH-2C ,Two-Compartment Lunch Box,1,24.95,Shipped,Victoria
+SS-100646,2026-09-23,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,delivered,Victoria
+SS-100647,2026-09-23,SPICE-12,Spice Jar Set (12),1, 29.95 ,Shipped,NSW
+SS-100648,2026-09-23,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,Delivered,vic
+SS-100649,23 Sep 2026,GLS-JAR-1000,Glass Storage Jar 1L,x1,19.95,Delivered,VIC
+SS-100650,2026-09-24,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Shipped,TAS
+SS-100650,2026-09-24,GLS-JAR-1000,Glass  Storage Jar 1L,1,$19.95,Shipped,TAS
+SS-100651,2026-09-24,GLS-JAR-1000,Glass Storage Jar 1L,1,19.95,delivered,New South Wales
+SS-100652,2026-09-24 10:24:32,SPICE-12,Spice Jar Set (12),1,29.95,Delivered,vic
+SS-100653,24/09/2026,oil-spray,Glass Oil Sprayer,1,17.95,Delivered,South Australia
+SS-100653,24/09/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,14.95,Delivered,SA
+SS-100654,2026-09-25,SPICE-12,Spice Jar Set (12),1,$29.95,Pending,New South Wales
+SS-100655,25 Sep 2026,SPICE-12,Spice Jar Set (12),1,29.95,Pending,Tasmania
+SS-100656,25 Sep 2026,GLS-JAR-1000,Glass Storage Jar 1L,3,$19.95,Pending,VIC
+SS-100656,2026-09-25,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,pending ,VIC
+SS-100656,2026-09-25,SPICE-12,Spice Jar Set (12),3,29.95,pending ,VIC
+SS-100657,2026-09-26,SPICE-12,Spice Jar Set (12),1,AUD 29.95,Pending,SA
+SS-100657,26/09/2026,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Pending,SA
+SS-100657,26/09/2026, OIL-SPRAY ,Glass Oil Sprayer,1,$17.95,Pending,SA
+SS-100658,26/09/2026,MP-SET-10,Glass Meal Prep Set (10 pack),2,69.95,Delivered,QLD
+SS-100659,26/09/2026,LUNCH-2C,Two-Compartment Lunch Box,3 units,AUD 24.95,Pending,Victoria
+SS-100660,2026-09-27 09:50:26,lunch-2c,Two-Compartment Lunch Box,2,$24.95,delivered,Victoria
+SS-100661,2026-09-27,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Shipped,WA
+SS-100661,2026-09-27,MP-SET-5,Glass Meal Prep Set (5 pack),1,AUD 39.95,Shipped,WA
+SS-100662,2026-09-27,LID-BAMBOO-4,Bamboo Lids (4 pack),1,12.95,Pending,vic
+SS-100662,27/09/2026,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,pending ,VIC
+SS-100663,2026-09-27 19:30:39, SPICE-12 ,Spice Jar Set (12),1,29.95,Delivered,NSW
+SS-100664,2026-09-27,LUNCH-2C,Two-Compartment Lunch Box,2,$24.95,pending ,South Australia
+SS-100665,2026-09-28,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,delivered,wa
+SS-100665,28 Sep 2026,SPICE-12,Spice Jar Set (12),1 unit,29.95,delivered,WA
+SS-100666,2026-09-29,GLS-JAR-1000,Glass Storage Jar 1L,1,AUD 19.95,Pending,New South Wales
+SS-100666,2026-09-29,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Pending,New South Wales
+SS-100667,2026-09-29,LUNCH-2C,Two-Compartment Lunch Box,1, 24.95 ,Delivered,New South Wales
+SS-100667,2026-09-29,GLS-JAR-500,Glass Storage Jar 500ml,1,AUD 14.95,Delivered,NSW
+SS-100668,2026-09-29,SPICE-12,Spice Jar Set (12),1,$29.95,Delivered,New South Wales
+SS-100668,2026-09-29,LUNCH-2C,Two-Compartment Lunch Box,1,$24.95,Delivered,NSW
+SS-100669,2026-09-29,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,Pending,Victoria
+SS-100669,2026-09-29,MP-SET-10,Glass Meal Prep Set (10 pack),1,69.95,pending ,VIC
+SS-100669,2026-09-29,MP-SET-5,Glass Meal Prep Set (5 pack),1,$39.95,pending ,VIC
+SS-100670,2026-09-30 22:15:17,LUNCH-2C,Two-Compartment Lunch Box,1,24.95,Pending,QLD
+SS-100670,30/09/2026,GLS-JAR-500,Glass Storage Jar 500ml,1,$14.95,Pending,QLD
+SS-100670,30 Sep 2026,SPICE-12,Spice Jar Set (12),1,AUD 29.95,Pending,Queensland
+SS-100671,2026-09-30,MP-SET-10,Glass Meal Prep Set (10 pack),1,$69.95,Pending,WA
+SS-100671,30 Sep 2026,GLS-JAR-1000,Glass Storage Jar 1L,1,$19.95,pending ,W.A.
+SS-100672,2026-09-30 09:36:05,SPICE-12,Spice Jar Set (12),1,$29.95,Pending,vic
+SS-100673,2026-09-30,LID-BAMBOO-4,Bamboo Lids (4 pack),1,$12.95,delivered,WA
+Total rows: 817,,,,,,,
