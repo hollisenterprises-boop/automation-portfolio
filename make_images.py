@@ -485,6 +485,92 @@ def lists_image():
     save(fig, "list-cleaner.png")
 
 
+# ---------- customer insights ----------
+
+def customers_image():
+    demo = HERE / "customer-insights"
+    report = demo / "output" / "customer_insights.xlsx"
+    raw = pd.read_csv(demo / "sample_data" / "online_retail_sample.csv", dtype=str, keep_default_na=False)
+    no_id = raw["CustomerID"] == ""
+    copy = raw.duplicated(keep="first")
+    postage = (raw["StockCode"] == "POST") & ~no_id
+    returned = raw["InvoiceNo"].str.startswith("C")
+    big_cancelled = raw.index[raw["CustomerID"] == "12346"]  # 74,215 jars ordered and cancelled the same day
+    first_copy = raw.index[copy][0]
+    twin = raw.index[(raw == raw.loc[first_copy]).all(axis=1)][0]
+    picks = list(big_cancelled) + [twin, first_copy, raw.index[postage][0], raw.index[no_id][0]]
+    plain = raw.index[~(no_id | copy | postage | returned | raw.duplicated(keep=False))]
+    picks = sorted(set(picks) | set(plain[:3]))
+    shaded = no_id | copy | postage | returned
+    rows = [[r["InvoiceNo"], r["StockCode"], shorten(r["Description"].strip(), 24), r["Quantity"], r["UnitPrice"],
+             r["CustomerID"] or "(blank)"] for _, r in raw.loc[picks].iterrows()]
+    highlight = {(n, -1) for n, i in enumerate(picks) if shaded[i]}
+
+    summary = load_summary(report)
+    segments = pd.read_excel(report, sheet_name="Segments", nrows=9)
+    log = pd.read_excel(report, sheet_name="Cleaning log", nrows=7).dropna(subset=["Step"])
+    removed = dict(zip(log["Step"].astype(int), log["Lines"]))
+    returns_value = -log.loc[log["Step"] == 5, "Value (£)"].iloc[0]
+
+    fig = canvas("Customer insights (RFM)",
+                 "Real order lines in: every customer scored, put in a segment, with an action for each")
+
+    section_label(fig, 0.04, 0.80, f"Before: real order lines ({int(summary['Order lines in the file']):,} "
+                                   "in the file)")
+    raw_table(fig, [0.04, 0.49, 0.49, 0.30], ["Invoice", "Code", "Description", "Qty", "Price", "Customer"], rows,
+              highlight, [0.14, 0.11, 0.37, 0.10, 0.11, 0.17], font_size=11)
+    fig.text(0.04, 0.465, "Shaded = removed, or set aside as a return. 12346 ordered 74,215 jars and cancelled\n"
+                          "them minutes later, so their spend is £0.", fontsize=13, color=INK_2, linespacing=1.5,
+             va="top")
+    fig.text(0.04, 0.345, "What the cleaning found in the full file", fontsize=15, fontweight="bold", color=INK_2)
+    found = [(removed[1], "lines with no customer ID, left out"),
+             (removed[2], "exact duplicate lines removed"),
+             (removed[3], "postage, fees and other non-product lines"),
+             (removed[4], "free items (price £0) removed"),
+             (removed[5], f"returns, £{returns_value:,.0f} taken off spend")]
+    for n, (count, label) in enumerate(found):
+        y = 0.31 - n * 0.026
+        fig.text(0.115, y, f"{int(count):,}", fontsize=13, fontweight="bold", ha="right")
+        fig.text(0.125, y, label, fontsize=13, color=INK_2)
+
+    section_label(fig, 0.56, 0.80, "After: every customer in a segment")
+    kpi_tiles(fig, 0.56, 0.65, 0.40, 0.13, [
+        (f"{int(summary['Customers analysed']):,}", "customers analysed"),
+        (f"{summary['Share of revenue from Champions']:.0%}", "from Champions"),
+        (f"{int(summary[AT_RISK_KEY]):,}", "customers at risk"),
+    ])
+    fig.text(0.56, 0.595, "Share of net revenue by segment", fontsize=15, color=INK_2)
+    ax = fig.add_axes([0.69, 0.22, 0.17, 0.35])
+    style_axis(ax)
+    ax.grid(axis="y", visible=False)
+    ax.grid(axis="x", color=GRID, linewidth=1)
+    ax.spines["bottom"].set_visible(False)
+    positions = list(range(len(segments)))[::-1]
+    slipping = segments["Segment"].isin(["At risk", "Can't lose them"])
+    ax.barh(positions, segments["Share of revenue"], height=0.62,
+            color=[STATUS["serious"] if s else BLUE for s in slipping])
+    ax.set_yticks(positions, list(segments["Segment"]), fontsize=13, color=INK_2)
+    ax.set_xlim(0, segments["Share of revenue"].max() * 1.15)
+    ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:.0%}"))
+    for y, share, count in zip(positions, segments["Share of revenue"], segments["Customers"]):
+        ax.text(share + 0.012, y, f"{share:.1%}  ({count:,} customers)", va="center", fontsize=12, color=INK_2)
+    fig.patches.append(FancyBboxPatch((0.56, 0.152), 0.012, 0.012, boxstyle="square,pad=0",
+                                      facecolor=STATUS["serious"], edgecolor="none", transform=fig.transFigure,
+                                      figure=fig))
+    fig.text(0.577, 0.151, "Slipping away: good customers who haven't ordered for months", fontsize=12,
+             color=INK_2)
+    fig.text(0.56, 0.075, "Also in the workbook: every customer's scores and segment, a suggested action\n"
+                          "for each segment, monthly revenue and new customers, and the cleaning log.",
+             fontsize=13, color=INK_2, linespacing=1.5)
+
+    footer(fig, "Python  ·  pandas  ·  openpyxl",
+           "Data: Online Retail, UCI Machine Learning Repository (Daqing Chen, 2015), CC BY 4.0")
+    save(fig, "customer-insights.png")
+
+
+AT_RISK_KEY = "Customers at risk (At risk + Can't lose them)"
+
+
 def plain_check(text):
     """Short versions of the Checks sheet wording for the image."""
     if text.startswith("GST charged"):
@@ -515,7 +601,7 @@ def save(fig, name):
 
 
 IMAGES = {"sales": sales_image, "ads": ads_image, "prices": price_image, "invoices": invoices_image,
-          "lists": lists_image}
+          "lists": lists_image, "customers": customers_image}
 
 if __name__ == "__main__":
     wanted = sys.argv[1:] or list(IMAGES)

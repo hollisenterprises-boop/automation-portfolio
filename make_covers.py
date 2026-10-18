@@ -87,7 +87,7 @@ def bars(draw, x, y, accent, width, height):
         draw.rounded_rectangle([x0, y + height * (1 - h), x0 + bw, y + height], radius=6, fill=accent)
 
 
-def cover(name, label, headline, stats, accent_hex, tools, after="table"):
+def cover(name, label, headline, stats, accent_hex, tools, after="table", data="made-up sample data"):
     accent = hex_rgb(accent_hex)
     img = Image.new("RGB", (W, H))
     background(img)
@@ -127,7 +127,7 @@ def cover(name, label, headline, stats, accent_hex, tools, after="table"):
     draw.text((left + gw // 2, strip_y + gh + 40), "Before", font=caption, fill=MUTED, anchor="mm")
     draw.text((after_x + gw // 2, strip_y + gh + 40), "After", font=caption, fill=MUTED, anchor="mm")
 
-    draw.text((left, H - 70), f"{tools}  \u00b7  tested  \u00b7  made-up sample data", font=font("segoeui.ttf", 34),
+    draw.text((left, H - 70), f"{tools}  \u00b7  tested  \u00b7  {data}", font=font("segoeui.ttf", 34),
               fill=MUTED, anchor="lm")
     OUT.mkdir(exist_ok=True)
     path = OUT / f"cover-{name}.png"
@@ -141,6 +141,7 @@ def main():
     prices = load_summary(HERE / "price-tracker" / "output" / "price_report.xlsx")
     invoices = load_summary(HERE / "invoice-extractor" / "output" / "invoices.xlsx")
     lists = load_summary(HERE / "list-cleaner" / "output" / "clean_contacts.xlsx")
+    customers = load_summary(HERE / "customer-insights" / "output" / "customer_insights.xlsx")
     pdf_count = len(list((HERE / "invoice-extractor" / "sample_data" / "invoices").glob("*.pdf")))
 
     cover("sales-report", "EXCEL REPORTING", "Messy store export \u2192 clean Excel report", [
@@ -174,6 +175,12 @@ def main():
         (f"{int(lists['Duplicate rows merged'])}", "duplicates merged"),
         (f"{int(lists['Said no or unsubscribed'])}", "opt-outs respected"),
     ], "#14B8A6", "Python \u00b7 Excel")
+    at_risk = int(customers["Customers at risk (At risk + Can't lose them)"])
+    cover("customer-insights", "CUSTOMER ANALYTICS", "Find your best customers and the ones slipping away", [
+        (f"{int(customers['Customers analysed']):,}", "customers analysed"),
+        (f"{customers['Share of revenue from Champions']:.0%}", "of revenue: Champions"),
+        (f"{at_risk:,}", "customers at risk"),
+    ], "#F472B6", "Python \u00b7 pandas \u00b7 Excel", after="bars", data="real public data")
 
 
 if __name__ == "__main__":
