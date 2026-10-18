@@ -19,7 +19,8 @@
   select { background: var(--panel-2); color: var(--ink); border: 1px solid var(--grid); border-radius: 10px;
            padding: 8px 12px; font: inherit; }
   .kpis { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin: 22px 0; }
-  .card { background: var(--panel); border-radius: 16px; padding: 18px 20px; }
+  .card { background: var(--panel); border-radius: 16px; padding: 18px 20px; min-width: 0; }
+  .table-wrap { overflow-x: auto; }
   .kpi .label { color: var(--ink-2); font-size: 14px; }
   .kpi .value { font-size: 32px; font-weight: 700; margin-top: 4px; }
   .kpi .note { color: var(--muted); font-size: 13px; margin-top: 2px; }
@@ -34,6 +35,8 @@
   .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
   footer { color: var(--muted); font-size: 13px; margin-top: 18px; }
   @media (max-width: 1100px) { .kpis { grid-template-columns: repeat(2, 1fr); } .grid { grid-template-columns: 1fr; } }
+  @media (max-width: 600px) { .wrap { padding: 20px 16px 28px; } .kpis { gap: 10px; } .card { padding: 14px; }
+                              .kpi .value { font-size: 26px; } h1 { font-size: 26px; } }
 </style>
 </head>
 <body>
@@ -54,7 +57,7 @@
   <section class="grid">
     <div class="card"><h2>Net sales by month</h2><div class="chart"><canvas id="byMonth"></canvas></div></div>
     <div class="card"><h2>Top products by net sales</h2><div class="chart"><canvas id="byProduct"></canvas></div></div>
-    <div class="card"><h2>Latest orders</h2><table id="latest"></table></div>
+    <div class="card"><h2>Latest orders</h2><div class="table-wrap"><table id="latest"></table></div></div>
     <div class="card"><h2>Net sales by state</h2><div class="chart"><canvas id="byState"></canvas></div></div>
   </section>
   <footer>Net sales count shipped and delivered orders only. Refunds, cancellations and pending orders are shown separately. All data is made up.</footer>
