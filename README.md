@@ -13,6 +13,8 @@ Live: the [demo site](https://hollisenterprises-boop.github.io/automation-portfo
 | [Contact list cleaner](list-cleaner/) | Merges messy customer lists from different sources, fixes names, emails and phone numbers, removes duplicates, and keeps marketing consent strict |
 | [PDF invoices to Excel](invoice-extractor/) | Reads a folder of supplier invoice PDFs in different layouts, checks the maths and GST, flags duplicates, and writes one Excel workbook |
 | [Customer insights (RFM)](customer-insights/) | Finds a shop's best customers and the ones slipping away: scores every customer on how recently and often they order and what they spend after returns, and puts each in a segment with a suggested action (real public data) |
+| [Certificates and letters from a spreadsheet](doc-generator/) | Makes a PDF certificate and a Word letter for every row of a spreadsheet, skips and lists rows with missing data, opens every file again to check it, and writes an Excel log of everything made and skipped |
+| [SQL reports in Excel](sql-reports/) | Loads store orders into a SQLite database, runs SQL queries (sales by month, top products, repeat customers, totals by state) and writes a formatted Excel report with charts and the SQL behind every sheet |
 
 To run any of them: install Python 3.12, then `pip install -r requirements.txt`, then follow the demo's README.
 

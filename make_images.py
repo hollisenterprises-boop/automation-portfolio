@@ -8,6 +8,7 @@ Images go to images/. Each shows the messy input next to the finished result.
 
 import csv
 import re
+import sqlite3
 import sys
 from pathlib import Path
 
@@ -571,6 +572,231 @@ def customers_image():
 AT_RISK_KEY = "Customers at risk (At risk + Can't lose them)"
 
 
+# ---------- certificates and letters from a spreadsheet ----------
+
+def letter_card(fig, rect, docx_path):
+    """Draw the top of a Word letter on a white page. The text is read back from the .docx file itself."""
+    import textwrap
+
+    from docx import Document
+
+    doc = Document(docx_path)
+    lines = [p.text for p in doc.paragraphs if p.text.strip()]
+    org, address, date_line, name, dear, subject, congrats, fee, closing, regards, signer, role = lines
+    table = [(row.cells[0].text, row.cells[1].text) for row in doc.tables[0].rows]
+
+    width, height = rect[2] * 1600, rect[3] * 1200
+    ax = fig.add_axes(rect)
+    ax.set_xlim(0, width)
+    ax.set_ylim(height, 0)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    ax.set_facecolor("white")
+    for spine in ax.spines.values():
+        spine.set_color(BASELINE)
+        spine.set_linewidth(1.2)
+    pad, family = 20, ["Calibri", "Segoe UI", "DejaVu Sans"]
+
+    def write(y, text, size=6.8, bold=False, color=INK, x=pad):
+        ax.text(x, y, text, fontsize=size, fontweight="bold" if bold else "normal", color=color, va="top",
+                fontfamily=family)
+
+    def paragraph(y, text, chars=50):
+        for line in textwrap.wrap(text, chars):
+            write(y, line)
+            y += 12
+        return y + 6
+
+    write(24, org, size=10, bold=True, color="#184f95")
+    write(44, address, size=5.4, color=MUTED)
+    ax.plot([pad, width - pad], [57, 57], color="#b7791f", linewidth=1)
+    write(72, date_line)
+    write(86, name, bold=True)
+    write(100, dear)
+    write(114, subject, bold=True)
+    y = paragraph(134, congrats)
+    y = paragraph(y, fee)
+    for label, value in table:
+        ax.add_patch(plt.Rectangle((pad, y), width - 2 * pad, 15, facecolor="white", edgecolor=BASELINE,
+                                   linewidth=0.8))
+        ax.add_patch(plt.Rectangle((pad, y), 82, 15, facecolor="#eaf1fb", edgecolor=BASELINE, linewidth=0.8))
+        write(y + 3.5, label, size=6.2, bold=True, x=pad + 4)
+        write(y + 3.5, value, size=6.2, x=pad + 88)
+        y += 15
+    y = paragraph(y + 12, closing)
+    write(y + 2, regards)
+    write(y + 30, signer, bold=True)
+    write(y + 43, role, size=6.2)
+
+
+def docs_image():
+    import pdfplumber  # only this image needs it
+    from openpyxl import load_workbook
+
+    demo = HERE / "doc-generator"
+    log = demo / "output" / "generation_log.xlsx"
+    summary = load_summary(log)
+    skipped = pd.read_excel(log, sheet_name="Skipped rows", dtype=str, keep_default_na=False)
+    sheet = list(load_workbook(demo / "sample_data" / "course_completions.xlsx").active.iter_rows(values_only=True))
+    rows, highlight = [], set()
+    for n, (name, course, when, amount) in enumerate(sheet[6:14]):  # spreadsheet rows 7 to 14, one has no name
+        text = [name or "", course or "", f"{when:%d/%m/%Y}" if hasattr(when, "year") else (when or ""),
+                f"${amount:,.2f}" if amount is not None else ""]
+        rows.append(text)
+        highlight |= {(n, c) for c, value in enumerate(text) if value == ""}
+
+    made, passed = int(summary["Certificates made (PDF)"]), int(summary["Files that passed the re-open check"])
+    total_files = passed + int(summary["Files that failed the re-open check"])
+
+    fig = canvas("Certificates and letters from a spreadsheet",
+                 "One row per person in, a PDF certificate and a Word letter out, and a log of everything")
+
+    section_label(fig, 0.04, 0.80, f"Before: a spreadsheet of {int(summary['Rows read'])} rows")
+    raw_table(fig, [0.04, 0.50, 0.38, 0.27], ["Name", "Course", "Date", "Amount"], rows, highlight,
+              [0.27, 0.43, 0.16, 0.14], font_size=10)
+    fig.text(0.04, 0.475, "Rows 7 to 14 of the sheet. Shaded cells are missing.\n"
+                          "Dates can be real Excel dates or typed text.", fontsize=13, color=INK_2,
+             linespacing=1.5, va="top")
+    fig.text(0.04, 0.38, "Rows skipped, and why", fontsize=15, color=INK_2)
+    for n, row in enumerate(skipped.itertuples()):
+        y = 0.34 - n * 0.045
+        fig.patches.append(FancyBboxPatch((0.04, y + 0.004), 0.008, 0.018, boxstyle="square,pad=0",
+                                          facecolor=STATUS["critical"], edgecolor="none",
+                                          transform=fig.transFigure, figure=fig))
+        fig.text(0.055, y + 0.013, f"Row {row[1]}", fontsize=13, fontweight="bold", va="center")
+        fig.text(0.125, y + 0.013, row[6], fontsize=13, color=INK_2, va="center")
+    fig.text(0.04, 0.17, "Every file is opened again after it is written, to check the\n"
+                         f"name, course and certificate number are on it: {passed} of {total_files} passed.",
+             fontsize=13, color=INK_2, linespacing=1.5)
+
+    section_label(fig, 0.46, 0.80, f"After: {made} certificates and {made} letters")
+    kpi_tiles(fig, 0.46, 0.665, 0.50, 0.115, [
+        (f"{made}", "PDF certificates"),
+        (f"{int(summary['Letters made (Word)'])}", "Word letters"),
+        (f"{int(summary['Rows skipped (data missing or unreadable)'])}", "rows skipped"),
+    ])
+    certificate = demo / "output" / "certificates" / "certificate_005_Zoe_OBrien.pdf"
+    with pdfplumber.open(certificate) as pdf:
+        page = pdf.pages[0].to_image(resolution=140).original
+    cert_w = 0.30
+    cert_h = cert_w * fig.get_figwidth() / fig.get_figheight() * page.height / page.width
+    ax = fig.add_axes([0.46, 0.635 - cert_h, cert_w, cert_h])
+    ax.imshow(page)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_color(BASELINE)
+        spine.set_linewidth(1.2)
+    letter_card(fig, [0.775, 0.285, 0.185, 0.35], demo / "output" / "letters" / "letter_005_Zoe_OBrien.docx")
+    fig.text(0.46, 0.635 - cert_h - 0.04, "PDF certificate, A4 landscape", fontsize=13, color=INK_2)
+    fig.text(0.775, 0.25, "Word letter, A4", fontsize=13, color=INK_2)
+    fig.text(0.46, 0.13, "Also in the log: every file name, each row's check result,\nand fees by course.",
+             fontsize=13, color=INK_2, linespacing=1.5)
+
+    footer(fig, "Python  ·  reportlab  ·  python-docx  ·  openpyxl", "All names and data are made up")
+    save(fig, "doc-generator.png")
+
+
+# ---------- SQL reports ----------
+
+GREEN_SQL = "#2f7d32"
+SQL_TOKENS = re.compile(
+    r"(--.*$)|(\"[^\"]*\")|('[^']*')|"
+    r"\b(?:WITH|AS|SELECT|FROM|JOIN|ON|GROUP BY|HAVING|ORDER BY|DESC|LIMIT|WHERE|AND|OVER|CAST|INTEGER|DISTINCT|"
+    r"ROWS BETWEEN|UNBOUNDED PRECEDING|CURRENT ROW)\b|"
+    r"\b(?:COUNT|SUM|MIN|MAX|ROUND|julianday|LAG|RANK)(?=\()")
+
+
+def sql_image():
+    demo = HERE / "sql-reports"
+    report = demo / "output" / "sql_report.xlsx"
+    summary = load_summary(report)
+    months = pd.read_excel(report, sheet_name="Sales by month")
+    products = pd.read_excel(report, sheet_name="Top products")
+    with sqlite3.connect(demo / "output" / "store.db") as db:
+        orders_loaded = db.execute("SELECT COUNT(*) FROM orders").fetchone()[0]
+    repeat, buyers = int(summary["Repeat customers"]), int(summary["Customers who bought"])
+
+    sql = (demo / "queries" / "03_repeat_customers.sql").read_text(encoding="utf-8")
+    code = [line.rstrip() for line in sql.splitlines() if not line.startswith("--")]
+
+    fig = canvas("SQL reports in Excel",
+                 "Orders in a SQLite database, SQL queries for the questions, one formatted workbook out")
+
+    section_label(fig, 0.04, 0.80, f"Before: a question, asked in SQL ({orders_loaded} orders in the database)")
+    width, height = 0.49, 0.46
+    ax = fig.add_axes([0.04, 0.775 - height, width, height])
+    ax.set_xlim(0, width * 1600)
+    ax.set_ylim(height * 1200, 0)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    ax.set_facecolor(TILE)
+    for spine in ax.spines.values():
+        spine.set_color(GRID)
+    mono, size = ["Consolas", "DejaVu Sans Mono"], 9.5
+    probe = fig.text(0, 0, "M" * 40, fontsize=size, fontfamily=mono)
+    advance = probe.get_window_extent(fig.canvas.get_renderer()).width / 40  # one character, in pixels
+    probe.remove()
+    for n, line in enumerate(code):
+        y, position, parts = 28 + n * 21.5, 0, []
+        for match in SQL_TOKENS.finditer(line):
+            if match.start() > position:
+                parts.append((position, line[position:match.start()], INK, "normal"))
+            if match.group(1):  # a comment
+                parts.append((match.start(), match.group(0), MUTED, "normal"))
+            elif match.group(2) or match.group(3):  # a quoted name or text
+                parts.append((match.start(), match.group(0), GREEN_SQL, "normal"))
+            else:  # a keyword or function
+                parts.append((match.start(), match.group(0), BLUE, "bold"))
+            position = match.end()
+        if position < len(line):
+            parts.append((position, line[position:], INK, "normal"))
+        for start, text, color, weight in parts:
+            ax.text(18 + start * advance, y, text, fontsize=size, fontfamily=mono, va="center", ha="left",
+                    color=color, fontweight=weight)
+    fig.text(0.04, 0.275, "One .sql file for each report. Anyone can re-run them in any SQLite tool,\n"
+                          "and the workbook's last sheet shows the SQL behind every report.",
+             fontsize=13, color=INK_2, linespacing=1.5, va="top")
+    fig.text(0.04, 0.16, "Checked: net sales, orders and the monthly, product and state totals\n"
+                         "match the Python sales report to the cent.",
+             fontsize=13, color=INK_2, linespacing=1.5, va="top")
+
+    section_label(fig, 0.56, 0.80, "After: one Excel workbook")
+    kpi_tiles(fig, 0.56, 0.665, 0.40, 0.115, [
+        (f"${summary['Net sales']:,.0f}", "net sales"),
+        (f"{int(summary['Orders'])}", "orders"),
+        (f"{repeat}", "repeat customers"),
+    ])
+    fig.text(0.56, 0.615, "Net sales by month", fontsize=15, color=INK_2)
+    ax = fig.add_axes([0.58, 0.395, 0.38, 0.195])
+    style_axis(ax)
+    ax.bar(range(len(months)), months["Sales"], color=BLUE, width=0.62)
+    ax.set_xticks(range(len(months)), [m.split()[0] for m in months["Month"]], fontsize=13, color=INK_2)
+    ax.set_ylim(0, months["Sales"].max() * 1.22)
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"${v / 1000:,.0f}k" if v else "$0"))
+    for x, sales in enumerate(months["Sales"]):
+        ax.text(x, sales + months["Sales"].max() * 0.03, f"${sales:,.0f}", ha="center", fontsize=12, color=INK_2)
+
+    fig.text(0.56, 0.345, "Net sales by product", fontsize=15, color=INK_2)
+    ax = fig.add_axes([0.72, 0.115, 0.24, 0.205])
+    style_axis(ax)
+    ax.grid(axis="y", visible=False)
+    ax.grid(axis="x", color=GRID, linewidth=1)
+    ax.spines["bottom"].set_visible(False)
+    positions = list(range(len(products)))[::-1]
+    ax.barh(positions, products["Sales"], color=BLUE, height=0.62)
+    ax.set_yticks(positions, [shorten(p, 30) for p in products["Product"]], fontsize=11, color=INK_2)
+    ax.set_xlim(0, products["Sales"].max() * 1.3)
+    ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"${v / 1000:,.0f}k" if v else "$0"))
+    for y, sales in zip(positions, products["Sales"]):
+        ax.text(sales + products["Sales"].max() * 0.02, y, f"${sales:,.0f}", va="center", fontsize=11, color=INK_2)
+    fig.text(0.56, 0.075, f"Also in the workbook: {repeat} repeat customers and totals by state.",
+             fontsize=13, color=INK_2)
+
+    footer(fig, "Python  ·  SQLite  ·  openpyxl", "All data is made up")
+    save(fig, "sql-reports.png")
+
+
 def plain_check(text):
     """Short versions of the Checks sheet wording for the image."""
     if text.startswith("GST charged"):
@@ -601,7 +827,7 @@ def save(fig, name):
 
 
 IMAGES = {"sales": sales_image, "ads": ads_image, "prices": price_image, "invoices": invoices_image,
-          "lists": lists_image, "customers": customers_image}
+          "lists": lists_image, "customers": customers_image, "docs": docs_image, "sql": sql_image}
 
 if __name__ == "__main__":
     wanted = sys.argv[1:] or list(IMAGES)

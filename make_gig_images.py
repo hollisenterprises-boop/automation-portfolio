@@ -1,10 +1,12 @@
-"""Draw Fiverr gig images (1280x769, Fiverr's recommended size), one per gig.
+"""Draw Fiverr gig images (1280x769, Fiverr's recommended size): two per gig.
 
     python make_gig_images.py
 
-Same look as the portfolio covers (make_covers.py), in Fiverr's wider shape,
-with the service as the headline. The numbers come from the demos' committed
-output, so they stay true. Images go to images/gig-<name>.png.
+images/gig-<name>-cover.png is the thumbnail: a headline of 10 words or fewer
+(Fiverr's limit for gig images) over a real screenshot of the demo's result.
+images/gig-<name>.png is the second image: the demo's numbers, in the same look
+as the portfolio covers (make_covers.py). The numbers come from the demos'
+committed output, so they stay true.
 """
 
 from pathlib import Path
@@ -15,6 +17,7 @@ from make_covers import BG_BOTTOM, BG_TOP, FAINT, MUTED, OUT, WHITE, font, hex_r
 from make_images import load_summary
 
 HERE = Path(__file__).parent
+IMAGES = HERE / "images"
 W, H = 1280, 769
 
 
@@ -28,6 +31,22 @@ def background():
         for y in range(0, H, 32):
             draw.point((x, y), fill=FAINT)
     return img
+
+
+def cover(name, headline, screenshot, accent_hex):
+    """Thumbnail: a short headline over the top of a real demo screenshot."""
+    assert len(headline.split()) <= 10, "Fiverr allows 10 words at most on gig images"
+    img = background()
+    draw = ImageDraw.Draw(img)
+    draw.text((48, 72), headline, font=font("seguisb.ttf", 54), fill=WHITE, anchor="lm")
+    draw.rounded_rectangle([48, 116, 168, 124], radius=4, fill=hex_rgb(accent_hex))
+    shot = Image.open(IMAGES / f"{screenshot}.png").convert("RGB")
+    box_w, box_h = W - 96, H - 150 - 24
+    shot = shot.crop((0, 0, shot.width, round(shot.width * box_h / box_w))).resize((box_w, box_h), Image.LANCZOS)
+    img.paste(shot, (48, 150))
+    path = OUT / f"gig-{name}-cover.png"
+    img.save(path, optimize=True)
+    print(f"Wrote {path}")
 
 
 def gig(name, label, headline, stats, accent_hex, footer):
@@ -69,6 +88,11 @@ def main():
     invoices = load_summary(HERE / "invoice-extractor" / "output" / "invoices.xlsx")
     customers = load_summary(HERE / "customer-insights" / "output" / "customer_insights.xlsx")
     pdf_count = len(list((HERE / "invoice-extractor" / "sample_data" / "invoices").glob("*.pdf")))
+
+    cover("excel-reports", "Excel and Google Sheets reports, automated", "sales-report", "#22C55E")
+    cover("pdf-to-excel", "PDF invoices to Excel, checked and totalled", "invoice-extractor", "#F59E0B")
+    cover("web-scraping", "Website data scraped into Excel or Sheets", "price-tracker", "#38BDF8")
+    cover("store-insights", "Your best customers, and who's slipping away", "customer-insights", "#F472B6")
 
     gig("excel-reports", "EXCEL & GOOGLE SHEETS", "Your Excel or Google Sheets reports, built automatically", [
         (f"{int(sales['Values fixed in the export']):,}", "messy values fixed"),
